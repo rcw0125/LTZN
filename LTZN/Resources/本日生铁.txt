@@ -1,0 +1,118 @@
+
+<BODY style="BACKGROUND-COLOR: #eeeeff" leftMargin=5 topMargin=25><H1 align=center>生产指标查询</H1>
+<HR width="80%">
+
+<TABLE cellPadding=1 align=center bgColor=#cccccc border=0>
+<TBODY>
+<TR>
+<TD align=middle width=56 bgColor=#c6ffc6 height=30>单位</TD>
+<TD align=middle width=56 bgColor=#c6ffc6 height=30>夜班</TD>
+<TD align=middle width=56 bgColor=#c6ffc6 height=30>白班</TD>
+<TD align=middle width=56 bgColor=#c6ffc6 height=30>中班</TD>
+<TD align=middle width=66 bgColor=#c6ffc6 height=30>全铁产量</TD>
+<TD align=middle width=66 bgColor=#c6ffc6 height=30>铁中铁</TD>
+<TD align=middle width=56 bgColor=#c6ffc6 height=30>L04</TD>
+<TD align=middle width=56 bgColor=#c6ffc6 height=30>L08</TD>
+<TD align=middle width=56 bgColor=#c6ffc6 height=30>L10</TD>
+<TD align=middle width=56 bgColor=#c6ffc6 height=30>Z14</TD>
+<TD align=middle width=56 bgColor=#c6ffc6 height=30>Z18</TD>
+<TD align=middle width=56 bgColor=#c6ffc6 height=30>Z22</TD>
+<TD align=middle width=60 bgColor=#c6ffc6 height=30>Z26</TD></TR></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>一高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.夜班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.白班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.中班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.铁中铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.L04$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.L08$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.L10$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.Z14$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.Z18$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.Z22$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.Z26$</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>二高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.夜班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.白班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.中班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.铁中铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.L04$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.L08$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.L10$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.Z14$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.Z18$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.Z22$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.Z26$</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>三高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.夜班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.白班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.中班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.铁中铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.L04$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.L08$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.L10$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.Z14$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.Z18$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.Z22$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.Z26$</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>四高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.夜班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.白班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.中班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.铁中铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.L04$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.L08$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.L10$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.Z14$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.Z18$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.Z22$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.Z26$</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>五高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.夜班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.白班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.中班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.铁中铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.L04$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.L08$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.L10$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.Z14$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.Z18$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.Z22$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.Z26$</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>六高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.夜班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.白班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.中班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.铁中铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.L04$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.L08$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.L10$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.Z14$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.Z18$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.Z22$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.Z26$</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>全&nbsp;厂</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$夜班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$白班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$中班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$铁中铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$L04$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$L08$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$L10$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$Z14$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$Z18$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$Z22$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$Z26$</TD></TR></TBODY></TABLE></BODY>

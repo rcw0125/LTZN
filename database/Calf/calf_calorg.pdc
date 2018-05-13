@@ -1,0 +1,32 @@
+-- Create table
+create table CALF_CALORG
+(
+  EID        CHAR(36) not null,
+  CALMODELID CHAR(36) not null,
+  PARENTID   CHAR(36),
+  ORGNAME    VARCHAR2(200) default '' not null
+)
+tablespace USERS
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    minextents 1
+    maxextents unlimited
+  );
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table CALF_CALORG
+  add primary key (EID)
+  using index 
+  tablespace USERS
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    minextents 1
+    maxextents unlimited
+  );

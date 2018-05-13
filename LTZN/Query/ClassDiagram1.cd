@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LTZN.Condition">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\Condition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTZN.SealedCondition">
+    <Position X="1" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAECCAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\SealedCondition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTZN.ComposeCondition">
+    <Position X="3.5" Y="2.25" Width="1.5" />
+    <AssociationLine Name="Condition2" Type="LTZN.Condition" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="2.905" />
+        <Point X="5.25" Y="2.905" />
+        <Point X="5.25" Y="0.938" />
+        <Point X="3.75" Y="0.938" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.341" Y="-0.202" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Condition1" Type="LTZN.Condition" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="3.466" />
+        <Point X="5.417" Y="3.466" />
+        <Point X="5.417" Y="0.75" />
+        <Point X="3.75" Y="0.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.331" Y="0.058" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAMAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\ComposeCondition.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Condition2" />
+      <Property Name="Condition1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LTZN.OpItem" Collapsed="true">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACCAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\OpItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTZN.ConditionManager">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Query\ConditionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTZN.StringSealedCondition">
+    <Position X="0.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\StringSealedCondition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTZN.NumericSealedCondition">
+    <Position X="2.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\NumericSealedCondition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTZN.DateTimeSealedCondition">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\DateTimeSealedCondition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTZN.Query.EntityField" Collapsed="true">
+    <Position X="8" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABABAAAAAAAAAAAAAAAAACACAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\EntityField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTZN.Query.EntityFieldList">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\EntityFieldList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="LTZN.RelationOpType" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAQAAAAACEAAAACIAAAAAkAAAgEAAAAAAAAAA=</HashCode>
+      <FileName>Query\RelationOpType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LTZN.LogicOpType" Collapsed="true">
+    <Position X="6" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\LogicOpType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LTZN.OpState" Collapsed="true">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAgCAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAABIAA=</HashCode>
+      <FileName>Query\OpState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

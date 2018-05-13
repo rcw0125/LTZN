@@ -1,0 +1,1100 @@
+<HTML>
+<HEAD>
+  <style type="text/css"> 
+    body{font-size:9pt}
+    table{ border-top:1px solid black;border-right:0px solid black;border-bottom:0px solid black;border-left:1px solid black; border-cllapse:collapse;margin:0;padding:0;}  
+     TBODY{ border-top:1px solid black;border-right:0px solid black;border-bottom:0px solid black;border-left:1px solid black; border-cllapse:collapse;margin:0;padding:0;} 
+    td{border-top:0px solid black;border-right:1px solid black;border-bottom:1px solid black;border-left:0px solid black;border-cllapse:collapse;padding:3px;}
+   </style>
+</HEAD>
+<body bgcolor=#EEEEFF topmargin=25 leftmargin=5>
+<H1 align=center>技术月报</H1>
+<HR width="80%">
+
+<table align=center cellpadding="0"cellspacing="0" >
+<THEAD>
+<tr>
+<td bgColor=#d7d7ff rowspan="2" colspan="2"  >指标项</td>
+<td bgColor=#d7d7ff colspan=2 colspan=2>1高炉</td>
+<td bgColor=#d7d7ff colspan=2>2高炉</td>
+<td bgColor=#d7d7ff colspan=2>3高炉</td>
+<td bgColor=#d7d7ff colspan=2>4高炉</td>
+<td bgColor=#d7d7ff colspan=2>5高炉</td>
+<td bgColor=#d7d7ff colspan=2>6高炉</td>
+<td bgColor=#d7d7ff colspan=2>全厂</td>
+</tr>
+<tr>
+<td bgColor=#d7d7ff>本月</td>
+<td bgColor=#d7d7ff>累计</td>
+<td bgColor=#d7d7ff>本月</td>
+<td bgColor=#d7d7ff>累计</td>
+<td bgColor=#d7d7ff>本月</td>
+<td bgColor=#d7d7ff>累计</td>
+<td bgColor=#d7d7ff>本月</td>
+<td bgColor=#d7d7ff>累计</td>
+<td bgColor=#d7d7ff>本月</td>
+<td bgColor=#d7d7ff>累计</td>
+<td bgColor=#d7d7ff>本月</td>
+<td bgColor=#d7d7ff>累计</td>
+<td bgColor=#d7d7ff>本月</td>
+<td bgColor=#d7d7ff>累计</td>
+<tr>
+</THEAD>
+<TBODY>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6>全铁产量</td>
+<td align=right>$本月.高炉1.全铁产量$</td>
+<td align=right>$累计.高炉1.全铁产量$</td>
+<td align=right>$本月.高炉2.全铁产量$</td>
+<td align=right>$累计.高炉2.全铁产量$</td>
+<td align=right>$本月.高炉3.全铁产量$</td>
+<td align=right>$累计.高炉3.全铁产量$</td>
+<td align=right>$本月.高炉4.全铁产量$</td>
+<td align=right>$累计.高炉4.全铁产量$</td>
+<td align=right>$本月.高炉5.全铁产量$</td>
+<td align=right>$累计.高炉5.全铁产量$</td>
+<td align=right>$本月.高炉6.全铁产量$</td>
+<td align=right>$累计.高炉6.全铁产量$</td>
+<td align=right>$本月.全铁产量$</td>
+<td align=right>$累计.全铁产量$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6>炼钢铁</td>
+<td align=right>$本月.高炉1.炼钢铁$</td>
+<td align=right>$累计.高炉1.炼钢铁$</td>
+<td align=right>$本月.高炉2.炼钢铁$</td>
+<td align=right>$累计.高炉2.炼钢铁$</td>
+<td align=right>$本月.高炉3.炼钢铁$</td>
+<td align=right>$累计.高炉3.炼钢铁$</td>
+<td align=right>$本月.高炉4.炼钢铁$</td>
+<td align=right>$累计.高炉4.炼钢铁$</td>
+<td align=right>$本月.高炉5.炼钢铁$</td>
+<td align=right>$累计.高炉5.炼钢铁$</td>
+<td align=right>$本月.高炉6.炼钢铁$</td>
+<td align=right>$累计.高炉6.炼钢铁$</td>
+<td align=right>$本月.炼钢铁$</td>
+<td align=right>$累计.炼钢铁$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >铸造铁</td>
+<td align=right>$本月.高炉1.铸造铁$</td>
+<td align=right>$累计.高炉1.铸造铁$</td>
+<td align=right>$本月.高炉2.铸造铁$</td>
+<td align=right>$累计.高炉2.铸造铁$</td>
+<td align=right>$本月.高炉3.铸造铁$</td>
+<td align=right>$累计.高炉3.铸造铁$</td>
+<td align=right>$本月.高炉4.铸造铁$</td>
+<td align=right>$累计.高炉4.铸造铁$</td>
+<td align=right>$本月.高炉5.铸造铁$</td>
+<td align=right>$累计.高炉5.铸造铁$</td>
+<td align=right>$本月.高炉6.铸造铁$</td>
+<td align=right>$累计.高炉6.铸造铁$</td>
+<td align=right>$本月.铸造铁$</td>
+<td align=right>$累计.铸造铁$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >号外铁</td>
+<td align=right>$本月.高炉1.号外铁$</td>
+<td align=right>$累计.高炉1.号外铁$</td>
+<td align=right>$本月.高炉2.号外铁$</td>
+<td align=right>$累计.高炉2.号外铁$</td>
+<td align=right>$本月.高炉3.号外铁$</td>
+<td align=right>$累计.高炉3.号外铁$</td>
+<td align=right>$本月.高炉4.号外铁$</td>
+<td align=right>$累计.高炉4.号外铁$</td>
+<td align=right>$本月.高炉5.号外铁$</td>
+<td align=right>$累计.高炉5.号外铁$</td>
+<td align=right>$本月.高炉6.号外铁$</td>
+<td align=right>$累计.高炉6.号外铁$</td>
+<td align=right>$本月.号外铁$</td>
+<td align=right>$累计.号外铁$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >合格率</td>
+<td align=right>$本月.高炉1.合格率$</td>
+<td align=right>$累计.高炉1.合格率$</td>
+<td align=right>$本月.高炉2.合格率$</td>
+<td align=right>$累计.高炉2.合格率$</td>
+<td align=right>$本月.高炉3.合格率$</td>
+<td align=right>$累计.高炉3.合格率$</td>
+<td align=right>$本月.高炉4.合格率$</td>
+<td align=right>$累计.高炉4.合格率$</td>
+<td align=right>$本月.高炉5.合格率$</td>
+<td align=right>$累计.高炉5.合格率$</td>
+<td align=right>$本月.高炉6.合格率$</td>
+<td align=right>$累计.高炉6.合格率$</td>
+<td align=right>$本月.合格率$</td>
+<td align=right>$累计.合格率$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >利用系数</td>
+<td align=right>$本月.高炉1.利用系数$</td>
+<td align=right>$累计.高炉1.利用系数$</td>
+<td align=right>$本月.高炉2.利用系数$</td>
+<td align=right>$累计.高炉2.利用系数$</td>
+<td align=right>$本月.高炉3.利用系数$</td>
+<td align=right>$累计.高炉3.利用系数$</td>
+<td align=right>$本月.高炉4.利用系数$</td>
+<td align=right>$累计.高炉4.利用系数$</td>
+<td align=right>$本月.高炉5.利用系数$</td>
+<td align=right>$累计.高炉5.利用系数$</td>
+<td align=right>$本月.高炉6.利用系数$</td>
+<td align=right>$累计.高炉6.利用系数$</td>
+<td align=right>$本月.利用系数$</td>
+<td align=right>$累计.利用系数$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >实物系数</td>
+<td align=right>$本月.高炉1.实物系数$</td>
+<td align=right>$累计.高炉1.实物系数$</td>
+<td align=right>$本月.高炉2.实物系数$</td>
+<td align=right>$累计.高炉2.实物系数$</td>
+<td align=right>$本月.高炉3.实物系数$</td>
+<td align=right>$累计.高炉3.实物系数$</td>
+<td align=right>$本月.高炉4.实物系数$</td>
+<td align=right>$累计.高炉4.实物系数$</td>
+<td align=right>$本月.高炉5.实物系数$</td>
+<td align=right>$累计.高炉5.实物系数$</td>
+<td align=right>$本月.高炉6.实物系数$</td>
+<td align=right>$累计.高炉6.实物系数$</td>
+<td align=right>$本月.实物系数$</td>
+<td align=right>$累计.实物系数$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >原料矿总耗</td>
+<td align=right>$本月.高炉1.原料矿总耗$</td>
+<td align=right>$累计.高炉1.原料矿总耗$</td>
+<td align=right>$本月.高炉2.原料矿总耗$</td>
+<td align=right>$累计.高炉2.原料矿总耗$</td>
+<td align=right>$本月.高炉3.原料矿总耗$</td>
+<td align=right>$累计.高炉3.原料矿总耗$</td>
+<td align=right>$本月.高炉4.原料矿总耗$</td>
+<td align=right>$累计.高炉4.原料矿总耗$</td>
+<td align=right>$本月.高炉5.原料矿总耗$</td>
+<td align=right>$累计.高炉5.原料矿总耗$</td>
+<td align=right>$本月.高炉6.原料矿总耗$</td>
+<td align=right>$累计.高炉6.原料矿总耗$</td>
+<td align=right>$本月.原料矿总耗$</td>
+<td align=right>$累计.原料矿总耗$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >原料矿单耗</td>
+<td align=right>$本月.高炉1.原料矿单耗$</td>
+<td align=right>$累计.高炉1.原料矿单耗$</td>
+<td align=right>$本月.高炉2.原料矿单耗$</td>
+<td align=right>$累计.高炉2.原料矿单耗$</td>
+<td align=right>$本月.高炉3.原料矿单耗$</td>
+<td align=right>$累计.高炉3.原料矿单耗$</td>
+<td align=right>$本月.高炉4.原料矿单耗$</td>
+<td align=right>$累计.高炉4.原料矿单耗$</td>
+<td align=right>$本月.高炉5.原料矿单耗$</td>
+<td align=right>$累计.高炉5.原料矿单耗$</td>
+<td align=right>$本月.高炉6.原料矿单耗$</td>
+<td align=right>$累计.高炉6.原料矿单耗$</td>
+<td align=right>$本月.原料矿单耗$</td>
+<td align=right>$累计.原料矿单耗$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >机烧</td>
+<td align=right>$本月.高炉1.机烧$</td>
+<td align=right>$累计.高炉1.机烧$</td>
+<td align=right>$本月.高炉2.机烧$</td>
+<td align=right>$累计.高炉2.机烧$</td>
+<td align=right>$本月.高炉3.机烧$</td>
+<td align=right>$累计.高炉3.机烧$</td>
+<td align=right>$本月.高炉4.机烧$</td>
+<td align=right>$累计.高炉4.机烧$</td>
+<td align=right>$本月.高炉5.机烧$</td>
+<td align=right>$累计.高炉5.机烧$</td>
+<td align=right>$本月.高炉6.机烧$</td>
+<td align=right>$累计.高炉6.机烧$</td>
+<td align=right>$本月.机烧$</td>
+<td align=right>$累计.机烧$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >竖球</td>
+<td align=right>$本月.高炉1.竖球$</td>
+<td align=right>$累计.高炉1.竖球$</td>
+<td align=right>$本月.高炉2.竖球$</td>
+<td align=right>$累计.高炉2.竖球$</td>
+<td align=right>$本月.高炉3.竖球$</td>
+<td align=right>$累计.高炉3.竖球$</td>
+<td align=right>$本月.高炉4.竖球$</td>
+<td align=right>$累计.高炉4.竖球$</td>
+<td align=right>$本月.高炉5.竖球$</td>
+<td align=right>$累计.高炉5.竖球$</td>
+<td align=right>$本月.高炉6.竖球$</td>
+<td align=right>$累计.高炉6.竖球$</td>
+<td align=right>$本月.竖球$</td>
+<td align=right>$累计.竖球$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >其它熟料</td>
+<td align=right>$本月.高炉1.其它熟料$</td>
+<td align=right>$累计.高炉1.其它熟料$</td>
+<td align=right>$本月.高炉2.其它熟料$</td>
+<td align=right>$累计.高炉2.其它熟料$</td>
+<td align=right>$本月.高炉3.其它熟料$</td>
+<td align=right>$累计.高炉3.其它熟料$</td>
+<td align=right>$本月.高炉4.其它熟料$</td>
+<td align=right>$累计.高炉4.其它熟料$</td>
+<td align=right>$本月.高炉5.其它熟料$</td>
+<td align=right>$累计.高炉5.其它熟料$</td>
+<td align=right>$本月.高炉6.其它熟料$</td>
+<td align=right>$累计.高炉6.其它熟料$</td>
+<td align=right>$本月.其它熟料$</td>
+<td align=right>$累计.其它熟料$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >本溪矿</td>
+<td align=right>$本月.高炉1.本溪矿$</td>
+<td align=right>$累计.高炉1.本溪矿$</td>
+<td align=right>$本月.高炉2.本溪矿$</td>
+<td align=right>$累计.高炉2.本溪矿$</td>
+<td align=right>$本月.高炉3.本溪矿$</td>
+<td align=right>$累计.高炉3.本溪矿$</td>
+<td align=right>$本月.高炉4.本溪矿$</td>
+<td align=right>$累计.高炉4.本溪矿$</td>
+<td align=right>$本月.高炉5.本溪矿$</td>
+<td align=right>$累计.高炉5.本溪矿$</td>
+<td align=right>$本月.高炉6.本溪矿$</td>
+<td align=right>$累计.高炉6.本溪矿$</td>
+<td align=right>$本月.本溪矿$</td>
+<td align=right>$累计.本溪矿$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >其它生料</td>
+<td align=right>$本月.高炉1.其它生料$</td>
+<td align=right>$累计.高炉1.其它生料$</td>
+<td align=right>$本月.高炉2.其它生料$</td>
+<td align=right>$累计.高炉2.其它生料$</td>
+<td align=right>$本月.高炉3.其它生料$</td>
+<td align=right>$累计.高炉3.其它生料$</td>
+<td align=right>$本月.高炉4.其它生料$</td>
+<td align=right>$累计.高炉4.其它生料$</td>
+<td align=right>$本月.高炉5.其它生料$</td>
+<td align=right>$累计.高炉5.其它生料$</td>
+<td align=right>$本月.高炉6.其它生料$</td>
+<td align=right>$累计.高炉6.其它生料$</td>
+<td align=right>$本月.其它生料$</td>
+<td align=right>$累计.其它生料$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >废铁总耗</td>
+<td align=right>$本月.高炉1.废铁总耗$</td>
+<td align=right>$累计.高炉1.废铁总耗$</td>
+<td align=right>$本月.高炉2.废铁总耗$</td>
+<td align=right>$累计.高炉2.废铁总耗$</td>
+<td align=right>$本月.高炉3.废铁总耗$</td>
+<td align=right>$累计.高炉3.废铁总耗$</td>
+<td align=right>$本月.高炉4.废铁总耗$</td>
+<td align=right>$累计.高炉4.废铁总耗$</td>
+<td align=right>$本月.高炉5.废铁总耗$</td>
+<td align=right>$累计.高炉5.废铁总耗$</td>
+<td align=right>$本月.高炉6.废铁总耗$</td>
+<td align=right>$累计.高炉6.废铁总耗$</td>
+<td align=right>$本月.废铁总耗$</td>
+<td align=right>$累计.废铁总耗$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >废铁单耗</td>
+<td align=right>$本月.高炉1.废铁单耗$</td>
+<td align=right>$累计.高炉1.废铁单耗$</td>
+<td align=right>$本月.高炉2.废铁单耗$</td>
+<td align=right>$累计.高炉2.废铁单耗$</td>
+<td align=right>$本月.高炉3.废铁单耗$</td>
+<td align=right>$累计.高炉3.废铁单耗$</td>
+<td align=right>$本月.高炉4.废铁单耗$</td>
+<td align=right>$累计.高炉4.废铁单耗$</td>
+<td align=right>$本月.高炉5.废铁单耗$</td>
+<td align=right>$累计.高炉5.废铁单耗$</td>
+<td align=right>$本月.高炉6.废铁单耗$</td>
+<td align=right>$累计.高炉6.废铁单耗$</td>
+<td align=right>$本月.废铁单耗$</td>
+<td align=right>$累计.废铁单耗$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >回收率</td>
+<td align=right>$本月.高炉1.回收率$</td>
+<td align=right>$累计.高炉1.回收率$</td>
+<td align=right>$本月.高炉2.回收率$</td>
+<td align=right>$累计.高炉2.回收率$</td>
+<td align=right>$本月.高炉3.回收率$</td>
+<td align=right>$累计.高炉3.回收率$</td>
+<td align=right>$本月.高炉4.回收率$</td>
+<td align=right>$累计.高炉4.回收率$</td>
+<td align=right>$本月.高炉5.回收率$</td>
+<td align=right>$累计.高炉5.回收率$</td>
+<td align=right>$本月.高炉6.回收率$</td>
+<td align=right>$累计.高炉6.回收率$</td>
+<td align=right>$本月.回收率$</td>
+<td align=right>$累计.回收率$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >熟料比</td>
+<td align=right>$本月.高炉1.熟料比$</td>
+<td align=right>$累计.高炉1.熟料比$</td>
+<td align=right>$本月.高炉2.熟料比$</td>
+<td align=right>$累计.高炉2.熟料比$</td>
+<td align=right>$本月.高炉3.熟料比$</td>
+<td align=right>$累计.高炉3.熟料比$</td>
+<td align=right>$本月.高炉4.熟料比$</td>
+<td align=right>$累计.高炉4.熟料比$</td>
+<td align=right>$本月.高炉5.熟料比$</td>
+<td align=right>$累计.高炉5.熟料比$</td>
+<td align=right>$本月.高炉6.熟料比$</td>
+<td align=right>$累计.高炉6.熟料比$</td>
+<td align=right>$本月.熟料比$</td>
+<td align=right>$累计.熟料比$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >平均风温</td>
+<td align=right>$本月.高炉1.平均风温$</td>
+<td align=right>$累计.高炉1.平均风温$</td>
+<td align=right>$本月.高炉2.平均风温$</td>
+<td align=right>$累计.高炉2.平均风温$</td>
+<td align=right>$本月.高炉3.平均风温$</td>
+<td align=right>$累计.高炉3.平均风温$</td>
+<td align=right>$本月.高炉4.平均风温$</td>
+<td align=right>$累计.高炉4.平均风温$</td>
+<td align=right>$本月.高炉5.平均风温$</td>
+<td align=right>$累计.高炉5.平均风温$</td>
+<td align=right>$本月.高炉6.平均风温$</td>
+<td align=right>$累计.高炉6.平均风温$</td>
+<td align=right>$本月.平均风温$</td>
+<td align=right>$累计.平均风温$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >炉顶温度</td>
+<td align=right>$本月.高炉1.炉顶温度$</td>
+<td align=right>$累计.高炉1.炉顶温度$</td>
+<td align=right>$本月.高炉2.炉顶温度$</td>
+<td align=right>$累计.高炉2.炉顶温度$</td>
+<td align=right>$本月.高炉3.炉顶温度$</td>
+<td align=right>$累计.高炉3.炉顶温度$</td>
+<td align=right>$本月.高炉4.炉顶温度$</td>
+<td align=right>$累计.高炉4.炉顶温度$</td>
+<td align=right>$本月.高炉5.炉顶温度$</td>
+<td align=right>$累计.高炉5.炉顶温度$</td>
+<td align=right>$本月.高炉6.炉顶温度$</td>
+<td align=right>$累计.高炉6.炉顶温度$</td>
+<td align=right>$本月.炉顶温度$</td>
+<td align=right>$累计.炉顶温度$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >热风压力</td>
+<td align=right>$本月.高炉1.热风压力$</td>
+<td align=right>$累计.高炉1.热风压力$</td>
+<td align=right>$本月.高炉2.热风压力$</td>
+<td align=right>$累计.高炉2.热风压力$</td>
+<td align=right>$本月.高炉3.热风压力$</td>
+<td align=right>$累计.高炉3.热风压力$</td>
+<td align=right>$本月.高炉4.热风压力$</td>
+<td align=right>$累计.高炉4.热风压力$</td>
+<td align=right>$本月.高炉5.热风压力$</td>
+<td align=right>$累计.高炉5.热风压力$</td>
+<td align=right>$本月.高炉6.热风压力$</td>
+<td align=right>$累计.高炉6.热风压力$</td>
+<td align=right>$本月.热风压力$</td>
+<td align=right>$累计.热风压力$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >炉顶压力</td>
+<td align=right>$本月.高炉1.炉顶压力$</td>
+<td align=right>$累计.高炉1.炉顶压力$</td>
+<td align=right>$本月.高炉2.炉顶压力$</td>
+<td align=right>$累计.高炉2.炉顶压力$</td>
+<td align=right>$本月.高炉3.炉顶压力$</td>
+<td align=right>$累计.高炉3.炉顶压力$</td>
+<td align=right>$本月.高炉4.炉顶压力$</td>
+<td align=right>$累计.高炉4.炉顶压力$</td>
+<td align=right>$本月.高炉5.炉顶压力$</td>
+<td align=right>$累计.高炉5.炉顶压力$</td>
+<td align=right>$本月.高炉6.炉顶压力$</td>
+<td align=right>$累计.高炉6.炉顶压力$</td>
+<td align=right>$本月.炉顶压力$</td>
+<td align=right>$累计.炉顶压力$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >富氧率</td>
+<td align=right>$本月.高炉1.富氧率$</td>
+<td align=right>$累计.高炉1.富氧率$</td>
+<td align=right>$本月.高炉2.富氧率$</td>
+<td align=right>$累计.高炉2.富氧率$</td>
+<td align=right>$本月.高炉3.富氧率$</td>
+<td align=right>$累计.高炉3.富氧率$</td>
+<td align=right>$本月.高炉4.富氧率$</td>
+<td align=right>$累计.高炉4.富氧率$</td>
+<td align=right>$本月.高炉5.富氧率$</td>
+<td align=right>$累计.高炉5.富氧率$</td>
+<td align=right>$本月.高炉6.富氧率$</td>
+<td align=right>$累计.高炉6.富氧率$</td>
+<td align=right>$本月.富氧率$</td>
+<td align=right>$累计.富氧率$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >入炉焦炭总耗</td>
+<td align=right>$本月.高炉1.入炉焦炭总耗$</td>
+<td align=right>$累计.高炉1.入炉焦炭总耗$</td>
+<td align=right>$本月.高炉2.入炉焦炭总耗$</td>
+<td align=right>$累计.高炉2.入炉焦炭总耗$</td>
+<td align=right>$本月.高炉3.入炉焦炭总耗$</td>
+<td align=right>$累计.高炉3.入炉焦炭总耗$</td>
+<td align=right>$本月.高炉4.入炉焦炭总耗$</td>
+<td align=right>$累计.高炉4.入炉焦炭总耗$</td>
+<td align=right>$本月.高炉5.入炉焦炭总耗$</td>
+<td align=right>$累计.高炉5.入炉焦炭总耗$</td>
+<td align=right>$本月.高炉6.入炉焦炭总耗$</td>
+<td align=right>$累计.高炉6.入炉焦炭总耗$</td>
+<td align=right>$本月.入炉焦炭总耗$</td>
+<td align=right>$累计.入炉焦炭总耗$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >入炉焦炭单耗</td>
+<td align=right>$本月.高炉1.入炉焦炭单耗$</td>
+<td align=right>$累计.高炉1.入炉焦炭单耗$</td>
+<td align=right>$本月.高炉2.入炉焦炭单耗$</td>
+<td align=right>$累计.高炉2.入炉焦炭单耗$</td>
+<td align=right>$本月.高炉3.入炉焦炭单耗$</td>
+<td align=right>$累计.高炉3.入炉焦炭单耗$</td>
+<td align=right>$本月.高炉4.入炉焦炭单耗$</td>
+<td align=right>$累计.高炉4.入炉焦炭单耗$</td>
+<td align=right>$本月.高炉5.入炉焦炭单耗$</td>
+<td align=right>$累计.高炉5.入炉焦炭单耗$</td>
+<td align=right>$本月.高炉6.入炉焦炭单耗$</td>
+<td align=right>$累计.高炉6.入炉焦炭单耗$</td>
+<td align=right>$本月.入炉焦炭单耗$</td>
+<td align=right>$累计.入炉焦炭单耗$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >煤粉总耗</td>
+<td align=right>$本月.高炉1.煤粉总耗$</td>
+<td align=right>$累计.高炉1.煤粉总耗$</td>
+<td align=right>$本月.高炉2.煤粉总耗$</td>
+<td align=right>$累计.高炉2.煤粉总耗$</td>
+<td align=right>$本月.高炉3.煤粉总耗$</td>
+<td align=right>$累计.高炉3.煤粉总耗$</td>
+<td align=right>$本月.高炉4.煤粉总耗$</td>
+<td align=right>$累计.高炉4.煤粉总耗$</td>
+<td align=right>$本月.高炉5.煤粉总耗$</td>
+<td align=right>$累计.高炉5.煤粉总耗$</td>
+<td align=right>$本月.高炉6.煤粉总耗$</td>
+<td align=right>$累计.高炉6.煤粉总耗$</td>
+<td align=right>$本月.煤粉总耗$</td>
+<td align=right>$累计.煤粉总耗$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >煤粉单耗</td>
+<td align=right>$本月.高炉1.煤粉单耗$</td>
+<td align=right>$累计.高炉1.煤粉单耗$</td>
+<td align=right>$本月.高炉2.煤粉单耗$</td>
+<td align=right>$累计.高炉2.煤粉单耗$</td>
+<td align=right>$本月.高炉3.煤粉单耗$</td>
+<td align=right>$累计.高炉3.煤粉单耗$</td>
+<td align=right>$本月.高炉4.煤粉单耗$</td>
+<td align=right>$累计.高炉4.煤粉单耗$</td>
+<td align=right>$本月.高炉5.煤粉单耗$</td>
+<td align=right>$累计.高炉5.煤粉单耗$</td>
+<td align=right>$本月.高炉6.煤粉单耗$</td>
+<td align=right>$累计.高炉6.煤粉单耗$</td>
+<td align=right>$本月.煤粉单耗$</td>
+<td align=right>$累计.煤粉单耗$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >焦丁总耗</td>
+<td align=right>$本月.高炉1.焦丁总耗$</td>
+<td align=right>$累计.高炉1.焦丁总耗$</td>
+<td align=right>$本月.高炉2.焦丁总耗$</td>
+<td align=right>$累计.高炉2.焦丁总耗$</td>
+<td align=right>$本月.高炉3.焦丁总耗$</td>
+<td align=right>$累计.高炉3.焦丁总耗$</td>
+<td align=right>$本月.高炉4.焦丁总耗$</td>
+<td align=right>$累计.高炉4.焦丁总耗$</td>
+<td align=right>$本月.高炉5.焦丁总耗$</td>
+<td align=right>$累计.高炉5.焦丁总耗$</td>
+<td align=right>$本月.高炉6.焦丁总耗$</td>
+<td align=right>$累计.高炉6.焦丁总耗$</td>
+<td align=right>$本月.焦丁总耗$</td>
+<td align=right>$累计.焦丁总耗$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >焦丁单耗</td>
+<td align=right>$本月.高炉1.焦丁单耗$</td>
+<td align=right>$累计.高炉1.焦丁单耗$</td>
+<td align=right>$本月.高炉2.焦丁单耗$</td>
+<td align=right>$累计.高炉2.焦丁单耗$</td>
+<td align=right>$本月.高炉3.焦丁单耗$</td>
+<td align=right>$累计.高炉3.焦丁单耗$</td>
+<td align=right>$本月.高炉4.焦丁单耗$</td>
+<td align=right>$累计.高炉4.焦丁单耗$</td>
+<td align=right>$本月.高炉5.焦丁单耗$</td>
+<td align=right>$累计.高炉5.焦丁单耗$</td>
+<td align=right>$本月.高炉6.焦丁单耗$</td>
+<td align=right>$累计.高炉6.焦丁单耗$</td>
+<td align=right>$本月.焦丁单耗$</td>
+<td align=right>$累计.焦丁单耗$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >综合焦炭总耗</td>
+<td align=right>$本月.高炉1.综合焦炭总耗$</td>
+<td align=right>$累计.高炉1.综合焦炭总耗$</td>
+<td align=right>$本月.高炉2.综合焦炭总耗$</td>
+<td align=right>$累计.高炉2.综合焦炭总耗$</td>
+<td align=right>$本月.高炉3.综合焦炭总耗$</td>
+<td align=right>$累计.高炉3.综合焦炭总耗$</td>
+<td align=right>$本月.高炉4.综合焦炭总耗$</td>
+<td align=right>$累计.高炉4.综合焦炭总耗$</td>
+<td align=right>$本月.高炉5.综合焦炭总耗$</td>
+<td align=right>$累计.高炉5.综合焦炭总耗$</td>
+<td align=right>$本月.高炉6.综合焦炭总耗$</td>
+<td align=right>$累计.高炉6.综合焦炭总耗$</td>
+<td align=right>$本月.综合焦炭总耗$</td>
+<td align=right>$累计.综合焦炭总耗$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >综合焦炭单耗</td>
+<td align=right>$本月.高炉1.综合焦炭单耗$</td>
+<td align=right>$累计.高炉1.综合焦炭单耗$</td>
+<td align=right>$本月.高炉2.综合焦炭单耗$</td>
+<td align=right>$累计.高炉2.综合焦炭单耗$</td>
+<td align=right>$本月.高炉3.综合焦炭单耗$</td>
+<td align=right>$累计.高炉3.综合焦炭单耗$</td>
+<td align=right>$本月.高炉4.综合焦炭单耗$</td>
+<td align=right>$累计.高炉4.综合焦炭单耗$</td>
+<td align=right>$本月.高炉5.综合焦炭单耗$</td>
+<td align=right>$累计.高炉5.综合焦炭单耗$</td>
+<td align=right>$本月.高炉6.综合焦炭单耗$</td>
+<td align=right>$累计.高炉6.综合焦炭单耗$</td>
+<td align=right>$本月.综合焦炭单耗$</td>
+<td align=right>$累计.综合焦炭单耗$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >综合折算焦比</td>
+<td align=right>$本月.高炉1.综合折算焦比$</td>
+<td align=right>$累计.高炉1.综合折算焦比$</td>
+<td align=right>$本月.高炉2.综合折算焦比$</td>
+<td align=right>$累计.高炉2.综合折算焦比$</td>
+<td align=right>$本月.高炉3.综合折算焦比$</td>
+<td align=right>$累计.高炉3.综合折算焦比$</td>
+<td align=right>$本月.高炉4.综合折算焦比$</td>
+<td align=right>$累计.高炉4.综合折算焦比$</td>
+<td align=right>$本月.高炉5.综合折算焦比$</td>
+<td align=right>$累计.高炉5.综合折算焦比$</td>
+<td align=right>$本月.高炉6.综合折算焦比$</td>
+<td align=right>$累计.高炉6.综合折算焦比$</td>
+<td align=right>$本月.综合折算焦比$</td>
+<td align=right>$累计.综合折算焦比$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >冶炼强度</td>
+<td align=right>$本月.高炉1.冶炼强度$</td>
+<td align=right>$累计.高炉1.冶炼强度$</td>
+<td align=right>$本月.高炉2.冶炼强度$</td>
+<td align=right>$累计.高炉2.冶炼强度$</td>
+<td align=right>$本月.高炉3.冶炼强度$</td>
+<td align=right>$累计.高炉3.冶炼强度$</td>
+<td align=right>$本月.高炉4.冶炼强度$</td>
+<td align=right>$累计.高炉4.冶炼强度$</td>
+<td align=right>$本月.高炉5.冶炼强度$</td>
+<td align=right>$累计.高炉5.冶炼强度$</td>
+<td align=right>$本月.高炉6.冶炼强度$</td>
+<td align=right>$累计.高炉6.冶炼强度$</td>
+<td align=right>$本月.冶炼强度$</td>
+<td align=right>$累计.冶炼强度$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >焦炭负荷</td>
+<td align=right>$本月.高炉1.焦炭负荷$</td>
+<td align=right>$累计.高炉1.焦炭负荷$</td>
+<td align=right>$本月.高炉2.焦炭负荷$</td>
+<td align=right>$累计.高炉2.焦炭负荷$</td>
+<td align=right>$本月.高炉3.焦炭负荷$</td>
+<td align=right>$累计.高炉3.焦炭负荷$</td>
+<td align=right>$本月.高炉4.焦炭负荷$</td>
+<td align=right>$累计.高炉4.焦炭负荷$</td>
+<td align=right>$本月.高炉5.焦炭负荷$</td>
+<td align=right>$累计.高炉5.焦炭负荷$</td>
+<td align=right>$本月.高炉6.焦炭负荷$</td>
+<td align=right>$累计.高炉6.焦炭负荷$</td>
+<td align=right>$本月.焦炭负荷$</td>
+<td align=right>$累计.焦炭负荷$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >干毛焦</td>
+<td align=right>$本月.高炉1.干毛焦$</td>
+<td align=right>$累计.高炉1.干毛焦$</td>
+<td align=right>$本月.高炉2.干毛焦$</td>
+<td align=right>$累计.高炉2.干毛焦$</td>
+<td align=right>$本月.高炉3.干毛焦$</td>
+<td align=right>$累计.高炉3.干毛焦$</td>
+<td align=right>$本月.高炉4.干毛焦$</td>
+<td align=right>$累计.高炉4.干毛焦$</td>
+<td align=right>$本月.高炉5.干毛焦$</td>
+<td align=right>$累计.高炉5.干毛焦$</td>
+<td align=right>$本月.高炉6.干毛焦$</td>
+<td align=right>$累计.高炉6.干毛焦$</td>
+<td align=right>$本月.干毛焦$</td>
+<td align=right>$累计.干毛焦$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >炼钢铁Si</td>
+<td align=right>$本月.高炉1.炼钢铁Si$</td>
+<td align=right>$累计.高炉1.炼钢铁Si$</td>
+<td align=right>$本月.高炉2.炼钢铁Si$</td>
+<td align=right>$累计.高炉2.炼钢铁Si$</td>
+<td align=right>$本月.高炉3.炼钢铁Si$</td>
+<td align=right>$累计.高炉3.炼钢铁Si$</td>
+<td align=right>$本月.高炉4.炼钢铁Si$</td>
+<td align=right>$累计.高炉4.炼钢铁Si$</td>
+<td align=right>$本月.高炉5.炼钢铁Si$</td>
+<td align=right>$累计.高炉5.炼钢铁Si$</td>
+<td align=right>$本月.高炉6.炼钢铁Si$</td>
+<td align=right>$累计.高炉6.炼钢铁Si$</td>
+<td align=right>$本月.炼钢铁Si$</td>
+<td align=right>$累计.炼钢铁Si$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >炼钢铁Mn</td>
+<td align=right>$本月.高炉1.炼钢铁Mn$</td>
+<td align=right>$累计.高炉1.炼钢铁Mn$</td>
+<td align=right>$本月.高炉2.炼钢铁Mn$</td>
+<td align=right>$累计.高炉2.炼钢铁Mn$</td>
+<td align=right>$本月.高炉3.炼钢铁Mn$</td>
+<td align=right>$累计.高炉3.炼钢铁Mn$</td>
+<td align=right>$本月.高炉4.炼钢铁Mn$</td>
+<td align=right>$累计.高炉4.炼钢铁Mn$</td>
+<td align=right>$本月.高炉5.炼钢铁Mn$</td>
+<td align=right>$累计.高炉5.炼钢铁Mn$</td>
+<td align=right>$本月.高炉6.炼钢铁Mn$</td>
+<td align=right>$累计.高炉6.炼钢铁Mn$</td>
+<td align=right>$本月.炼钢铁Mn$</td>
+<td align=right>$累计.炼钢铁Mn$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >炼钢铁P</td>
+<td align=right>$本月.高炉1.炼钢铁P$</td>
+<td align=right>$累计.高炉1.炼钢铁P$</td>
+<td align=right>$本月.高炉2.炼钢铁P$</td>
+<td align=right>$累计.高炉2.炼钢铁P$</td>
+<td align=right>$本月.高炉3.炼钢铁P$</td>
+<td align=right>$累计.高炉3.炼钢铁P$</td>
+<td align=right>$本月.高炉4.炼钢铁P$</td>
+<td align=right>$累计.高炉4.炼钢铁P$</td>
+<td align=right>$本月.高炉5.炼钢铁P$</td>
+<td align=right>$累计.高炉5.炼钢铁P$</td>
+<td align=right>$本月.高炉6.炼钢铁P$</td>
+<td align=right>$累计.高炉6.炼钢铁P$</td>
+<td align=right>$本月.炼钢铁P$</td>
+<td align=right>$累计.炼钢铁P$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >炼钢铁S</td>
+<td align=right>$本月.高炉1.炼钢铁S$</td>
+<td align=right>$累计.高炉1.炼钢铁S$</td>
+<td align=right>$本月.高炉2.炼钢铁S$</td>
+<td align=right>$累计.高炉2.炼钢铁S$</td>
+<td align=right>$本月.高炉3.炼钢铁S$</td>
+<td align=right>$累计.高炉3.炼钢铁S$</td>
+<td align=right>$本月.高炉4.炼钢铁S$</td>
+<td align=right>$累计.高炉4.炼钢铁S$</td>
+<td align=right>$本月.高炉5.炼钢铁S$</td>
+<td align=right>$累计.高炉5.炼钢铁S$</td>
+<td align=right>$本月.高炉6.炼钢铁S$</td>
+<td align=right>$累计.高炉6.炼钢铁S$</td>
+<td align=right>$本月.炼钢铁S$</td>
+<td align=right>$累计.炼钢铁S$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >铸造铁Si</td>
+<td align=right>$本月.高炉1.铸造铁Si$</td>
+<td align=right>$累计.高炉1.铸造铁Si$</td>
+<td align=right>$本月.高炉2.铸造铁Si$</td>
+<td align=right>$累计.高炉2.铸造铁Si$</td>
+<td align=right>$本月.高炉3.铸造铁Si$</td>
+<td align=right>$累计.高炉3.铸造铁Si$</td>
+<td align=right>$本月.高炉4.铸造铁Si$</td>
+<td align=right>$累计.高炉4.铸造铁Si$</td>
+<td align=right>$本月.高炉5.铸造铁Si$</td>
+<td align=right>$累计.高炉5.铸造铁Si$</td>
+<td align=right>$本月.高炉6.铸造铁Si$</td>
+<td align=right>$累计.高炉6.铸造铁Si$</td>
+<td align=right>$本月.铸造铁Si$</td>
+<td align=right>$累计.铸造铁Si$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >铸造铁Mn</td>
+<td align=right>$本月.高炉1.铸造铁Mn$</td>
+<td align=right>$累计.高炉1.铸造铁Mn$</td>
+<td align=right>$本月.高炉2.铸造铁Mn$</td>
+<td align=right>$累计.高炉2.铸造铁Mn$</td>
+<td align=right>$本月.高炉3.铸造铁Mn$</td>
+<td align=right>$累计.高炉3.铸造铁Mn$</td>
+<td align=right>$本月.高炉4.铸造铁Mn$</td>
+<td align=right>$累计.高炉4.铸造铁Mn$</td>
+<td align=right>$本月.高炉5.铸造铁Mn$</td>
+<td align=right>$累计.高炉5.铸造铁Mn$</td>
+<td align=right>$本月.高炉6.铸造铁Mn$</td>
+<td align=right>$累计.高炉6.铸造铁Mn$</td>
+<td align=right>$本月.铸造铁Mn$</td>
+<td align=right>$累计.铸造铁Mn$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >铸造铁P</td>
+<td align=right>$本月.高炉1.铸造铁P$</td>
+<td align=right>$累计.高炉1.铸造铁P$</td>
+<td align=right>$本月.高炉2.铸造铁P$</td>
+<td align=right>$累计.高炉2.铸造铁P$</td>
+<td align=right>$本月.高炉3.铸造铁P$</td>
+<td align=right>$累计.高炉3.铸造铁P$</td>
+<td align=right>$本月.高炉4.铸造铁P$</td>
+<td align=right>$累计.高炉4.铸造铁P$</td>
+<td align=right>$本月.高炉5.铸造铁P$</td>
+<td align=right>$累计.高炉5.铸造铁P$</td>
+<td align=right>$本月.高炉6.铸造铁P$</td>
+<td align=right>$累计.高炉6.铸造铁P$</td>
+<td align=right>$本月.铸造铁P$</td>
+<td align=right>$累计.铸造铁P$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >铸造铁S</td>
+<td align=right>$本月.高炉1.铸造铁S$</td>
+<td align=right>$累计.高炉1.铸造铁S$</td>
+<td align=right>$本月.高炉2.铸造铁S$</td>
+<td align=right>$累计.高炉2.铸造铁S$</td>
+<td align=right>$本月.高炉3.铸造铁S$</td>
+<td align=right>$累计.高炉3.铸造铁S$</td>
+<td align=right>$本月.高炉4.铸造铁S$</td>
+<td align=right>$累计.高炉4.铸造铁S$</td>
+<td align=right>$本月.高炉5.铸造铁S$</td>
+<td align=right>$累计.高炉5.铸造铁S$</td>
+<td align=right>$本月.高炉6.铸造铁S$</td>
+<td align=right>$累计.高炉6.铸造铁S$</td>
+<td align=right>$本月.铸造铁S$</td>
+<td align=right>$累计.铸造铁S$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >炉渣碱度</td>
+<td align=right>$本月.高炉1.炉渣碱度$</td>
+<td align=right>$累计.高炉1.炉渣碱度$</td>
+<td align=right>$本月.高炉2.炉渣碱度$</td>
+<td align=right>$累计.高炉2.炉渣碱度$</td>
+<td align=right>$本月.高炉3.炉渣碱度$</td>
+<td align=right>$累计.高炉3.炉渣碱度$</td>
+<td align=right>$本月.高炉4.炉渣碱度$</td>
+<td align=right>$累计.高炉4.炉渣碱度$</td>
+<td align=right>$本月.高炉5.炉渣碱度$</td>
+<td align=right>$累计.高炉5.炉渣碱度$</td>
+<td align=right>$本月.高炉6.炉渣碱度$</td>
+<td align=right>$累计.高炉6.炉渣碱度$</td>
+<td align=right>$本月.炉渣碱度$</td>
+<td align=right>$累计.炉渣碱度$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >休风情况</td>
+<td align=right>$本月.高炉1.休风情况$</td>
+<td align=right>$累计.高炉1.休风情况$</td>
+<td align=right>$本月.高炉2.休风情况$</td>
+<td align=right>$累计.高炉2.休风情况$</td>
+<td align=right>$本月.高炉3.休风情况$</td>
+<td align=right>$累计.高炉3.休风情况$</td>
+<td align=right>$本月.高炉4.休风情况$</td>
+<td align=right>$累计.高炉4.休风情况$</td>
+<td align=right>$本月.高炉5.休风情况$</td>
+<td align=right>$累计.高炉5.休风情况$</td>
+<td align=right>$本月.高炉6.休风情况$</td>
+<td align=right>$累计.高炉6.休风情况$</td>
+<td align=right>$本月.休风情况$</td>
+<td align=right>$累计.休风情况$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >慢风</td>
+<td align=right>$本月.高炉1.慢风$</td>
+<td align=right>$累计.高炉1.慢风$</td>
+<td align=right>$本月.高炉2.慢风$</td>
+<td align=right>$累计.高炉2.慢风$</td>
+<td align=right>$本月.高炉3.慢风$</td>
+<td align=right>$累计.高炉3.慢风$</td>
+<td align=right>$本月.高炉4.慢风$</td>
+<td align=right>$累计.高炉4.慢风$</td>
+<td align=right>$本月.高炉5.慢风$</td>
+<td align=right>$累计.高炉5.慢风$</td>
+<td align=right>$本月.高炉6.慢风$</td>
+<td align=right>$累计.高炉6.慢风$</td>
+<td align=right>$本月.慢风$</td>
+<td align=right>$累计.慢风$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >坐料次数</td>
+<td align=right>$本月.高炉1.坐料次数$</td>
+<td align=right>$累计.高炉1.坐料次数$</td>
+<td align=right>$本月.高炉2.坐料次数$</td>
+<td align=right>$累计.高炉2.坐料次数$</td>
+<td align=right>$本月.高炉3.坐料次数$</td>
+<td align=right>$累计.高炉3.坐料次数$</td>
+<td align=right>$本月.高炉4.坐料次数$</td>
+<td align=right>$累计.高炉4.坐料次数$</td>
+<td align=right>$本月.高炉5.坐料次数$</td>
+<td align=right>$累计.高炉5.坐料次数$</td>
+<td align=right>$本月.高炉6.坐料次数$</td>
+<td align=right>$累计.高炉6.坐料次数$</td>
+<td align=right>$本月.坐料次数$</td>
+<td align=right>$累计.坐料次数$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >悬料次数</td>
+<td align=right>$本月.高炉1.悬料次数$</td>
+<td align=right>$累计.高炉1.悬料次数$</td>
+<td align=right>$本月.高炉2.悬料次数$</td>
+<td align=right>$累计.高炉2.悬料次数$</td>
+<td align=right>$本月.高炉3.悬料次数$</td>
+<td align=right>$累计.高炉3.悬料次数$</td>
+<td align=right>$本月.高炉4.悬料次数$</td>
+<td align=right>$累计.高炉4.悬料次数$</td>
+<td align=right>$本月.高炉5.悬料次数$</td>
+<td align=right>$累计.高炉5.悬料次数$</td>
+<td align=right>$本月.高炉6.悬料次数$</td>
+<td align=right>$累计.高炉6.悬料次数$</td>
+<td align=right>$本月.悬料次数$</td>
+<td align=right>$累计.悬料次数$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >崩料次数</td>
+<td align=right>$本月.高炉1.崩料次数$</td>
+<td align=right>$累计.高炉1.崩料次数$</td>
+<td align=right>$本月.高炉2.崩料次数$</td>
+<td align=right>$累计.高炉2.崩料次数$</td>
+<td align=right>$本月.高炉3.崩料次数$</td>
+<td align=right>$累计.高炉3.崩料次数$</td>
+<td align=right>$本月.高炉4.崩料次数$</td>
+<td align=right>$累计.高炉4.崩料次数$</td>
+<td align=right>$本月.高炉5.崩料次数$</td>
+<td align=right>$累计.高炉5.崩料次数$</td>
+<td align=right>$本月.高炉6.崩料次数$</td>
+<td align=right>$累计.高炉6.崩料次数$</td>
+<td align=right>$本月.崩料次数$</td>
+<td align=right>$累计.崩料次数$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >风口损坏数大</td>
+<td align=right>$本月.高炉1.风口损坏数大$</td>
+<td align=right>$累计.高炉1.风口损坏数大$</td>
+<td align=right>$本月.高炉2.风口损坏数大$</td>
+<td align=right>$累计.高炉2.风口损坏数大$</td>
+<td align=right>$本月.高炉3.风口损坏数大$</td>
+<td align=right>$累计.高炉3.风口损坏数大$</td>
+<td align=right>$本月.高炉4.风口损坏数大$</td>
+<td align=right>$累计.高炉4.风口损坏数大$</td>
+<td align=right>$本月.高炉5.风口损坏数大$</td>
+<td align=right>$累计.高炉5.风口损坏数大$</td>
+<td align=right>$本月.高炉6.风口损坏数大$</td>
+<td align=right>$累计.高炉6.风口损坏数大$</td>
+<td align=right>$本月.风口损坏数大$</td>
+<td align=right>$累计.风口损坏数大$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >风口损坏数中</td>
+<td align=right>$本月.高炉1.风口损坏数中$</td>
+<td align=right>$累计.高炉1.风口损坏数中$</td>
+<td align=right>$本月.高炉2.风口损坏数中$</td>
+<td align=right>$累计.高炉2.风口损坏数中$</td>
+<td align=right>$本月.高炉3.风口损坏数中$</td>
+<td align=right>$累计.高炉3.风口损坏数中$</td>
+<td align=right>$本月.高炉4.风口损坏数中$</td>
+<td align=right>$累计.高炉4.风口损坏数中$</td>
+<td align=right>$本月.高炉5.风口损坏数中$</td>
+<td align=right>$累计.高炉5.风口损坏数中$</td>
+<td align=right>$本月.高炉6.风口损坏数中$</td>
+<td align=right>$累计.高炉6.风口损坏数中$</td>
+<td align=right>$本月.风口损坏数中$</td>
+<td align=right>$累计.风口损坏数中$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >风口损坏数小</td>
+<td align=right>$本月.高炉1.风口损坏数小$</td>
+<td align=right>$累计.高炉1.风口损坏数小$</td>
+<td align=right>$本月.高炉2.风口损坏数小$</td>
+<td align=right>$累计.高炉2.风口损坏数小$</td>
+<td align=right>$本月.高炉3.风口损坏数小$</td>
+<td align=right>$累计.高炉3.风口损坏数小$</td>
+<td align=right>$本月.高炉4.风口损坏数小$</td>
+<td align=right>$累计.高炉4.风口损坏数小$</td>
+<td align=right>$本月.高炉5.风口损坏数小$</td>
+<td align=right>$累计.高炉5.风口损坏数小$</td>
+<td align=right>$本月.高炉6.风口损坏数小$</td>
+<td align=right>$累计.高炉6.风口损坏数小$</td>
+<td align=right>$本月.风口损坏数小$</td>
+<td align=right>$累计.风口损坏数小$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >渣口损坏数大</td>
+<td align=right>$本月.高炉1.渣口损坏数大$</td>
+<td align=right>$累计.高炉1.渣口损坏数大$</td>
+<td align=right>$本月.高炉2.渣口损坏数大$</td>
+<td align=right>$累计.高炉2.渣口损坏数大$</td>
+<td align=right>$本月.高炉3.渣口损坏数大$</td>
+<td align=right>$累计.高炉3.渣口损坏数大$</td>
+<td align=right>$本月.高炉4.渣口损坏数大$</td>
+<td align=right>$累计.高炉4.渣口损坏数大$</td>
+<td align=right>$本月.高炉5.渣口损坏数大$</td>
+<td align=right>$累计.高炉5.渣口损坏数大$</td>
+<td align=right>$本月.高炉6.渣口损坏数大$</td>
+<td align=right>$累计.高炉6.渣口损坏数大$</td>
+<td align=right>$本月.渣口损坏数大$</td>
+<td align=right>$累计.渣口损坏数大$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >渣口损坏数中</td>
+<td align=right>$本月.高炉1.渣口损坏数中$</td>
+<td align=right>$累计.高炉1.渣口损坏数中$</td>
+<td align=right>$本月.高炉2.渣口损坏数中$</td>
+<td align=right>$累计.高炉2.渣口损坏数中$</td>
+<td align=right>$本月.高炉3.渣口损坏数中$</td>
+<td align=right>$累计.高炉3.渣口损坏数中$</td>
+<td align=right>$本月.高炉4.渣口损坏数中$</td>
+<td align=right>$累计.高炉4.渣口损坏数中$</td>
+<td align=right>$本月.高炉5.渣口损坏数中$</td>
+<td align=right>$累计.高炉5.渣口损坏数中$</td>
+<td align=right>$本月.高炉6.渣口损坏数中$</td>
+<td align=right>$累计.高炉6.渣口损坏数中$</td>
+<td align=right>$本月.渣口损坏数中$</td>
+<td align=right>$累计.渣口损坏数中$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >渣口损坏数小</td>
+<td align=right>$本月.高炉1.渣口损坏数小$</td>
+<td align=right>$累计.高炉1.渣口损坏数小$</td>
+<td align=right>$本月.高炉2.渣口损坏数小$</td>
+<td align=right>$累计.高炉2.渣口损坏数小$</td>
+<td align=right>$本月.高炉3.渣口损坏数小$</td>
+<td align=right>$累计.高炉3.渣口损坏数小$</td>
+<td align=right>$本月.高炉4.渣口损坏数小$</td>
+<td align=right>$累计.高炉4.渣口损坏数小$</td>
+<td align=right>$本月.高炉5.渣口损坏数小$</td>
+<td align=right>$累计.高炉5.渣口损坏数小$</td>
+<td align=right>$本月.高炉6.渣口损坏数小$</td>
+<td align=right>$累计.高炉6.渣口损坏数小$</td>
+<td align=right>$本月.渣口损坏数小$</td>
+<td align=right>$累计.渣口损坏数小$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >本厂铸造SI大</td>
+<td align=right>$本月.高炉1.本厂铸造SI大$</td>
+<td align=right>$累计.高炉1.本厂铸造SI大$</td>
+<td align=right>$本月.高炉2.本厂铸造SI大$</td>
+<td align=right>$累计.高炉2.本厂铸造SI大$</td>
+<td align=right>$本月.高炉3.本厂铸造SI大$</td>
+<td align=right>$累计.高炉3.本厂铸造SI大$</td>
+<td align=right>$本月.高炉4.本厂铸造SI大$</td>
+<td align=right>$累计.高炉4.本厂铸造SI大$</td>
+<td align=right>$本月.高炉5.本厂铸造SI大$</td>
+<td align=right>$累计.高炉5.本厂铸造SI大$</td>
+<td align=right>$本月.高炉6.本厂铸造SI大$</td>
+<td align=right>$累计.高炉6.本厂铸造SI大$</td>
+<td align=right>$本月.本厂铸造SI大$</td>
+<td align=right>$累计.本厂铸造SI大$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >本厂铸造SI小</td>
+<td align=right>$本月.高炉1.本厂铸造SI小$</td>
+<td align=right>$累计.高炉1.本厂铸造SI小$</td>
+<td align=right>$本月.高炉2.本厂铸造SI小$</td>
+<td align=right>$累计.高炉2.本厂铸造SI小$</td>
+<td align=right>$本月.高炉3.本厂铸造SI小$</td>
+<td align=right>$累计.高炉3.本厂铸造SI小$</td>
+<td align=right>$本月.高炉4.本厂铸造SI小$</td>
+<td align=right>$累计.高炉4.本厂铸造SI小$</td>
+<td align=right>$本月.高炉5.本厂铸造SI小$</td>
+<td align=right>$累计.高炉5.本厂铸造SI小$</td>
+<td align=right>$本月.高炉6.本厂铸造SI小$</td>
+<td align=right>$累计.高炉6.本厂铸造SI小$</td>
+<td align=right>$本月.本厂铸造SI小$</td>
+<td align=right>$累计.本厂铸造SI小$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >送炼钢厂SI大</td>
+<td align=right>$本月.高炉1.送炼钢厂SI大$</td>
+<td align=right>$累计.高炉1.送炼钢厂SI大$</td>
+<td align=right>$本月.高炉2.送炼钢厂SI大$</td>
+<td align=right>$累计.高炉2.送炼钢厂SI大$</td>
+<td align=right>$本月.高炉3.送炼钢厂SI大$</td>
+<td align=right>$累计.高炉3.送炼钢厂SI大$</td>
+<td align=right>$本月.高炉4.送炼钢厂SI大$</td>
+<td align=right>$累计.高炉4.送炼钢厂SI大$</td>
+<td align=right>$本月.高炉5.送炼钢厂SI大$</td>
+<td align=right>$累计.高炉5.送炼钢厂SI大$</td>
+<td align=right>$本月.高炉6.送炼钢厂SI大$</td>
+<td align=right>$累计.高炉6.送炼钢厂SI大$</td>
+<td align=right>$本月.送炼钢厂SI大$</td>
+<td align=right>$累计.送炼钢厂SI大$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >送炼钢厂SI小</td>
+<td align=right>$本月.高炉1.送炼钢厂SI小$</td>
+<td align=right>$累计.高炉1.送炼钢厂SI小$</td>
+<td align=right>$本月.高炉2.送炼钢厂SI小$</td>
+<td align=right>$累计.高炉2.送炼钢厂SI小$</td>
+<td align=right>$本月.高炉3.送炼钢厂SI小$</td>
+<td align=right>$累计.高炉3.送炼钢厂SI小$</td>
+<td align=right>$本月.高炉4.送炼钢厂SI小$</td>
+<td align=right>$累计.高炉4.送炼钢厂SI小$</td>
+<td align=right>$本月.高炉5.送炼钢厂SI小$</td>
+<td align=right>$累计.高炉5.送炼钢厂SI小$</td>
+<td align=right>$本月.高炉6.送炼钢厂SI小$</td>
+<td align=right>$累计.高炉6.送炼钢厂SI小$</td>
+<td align=right>$本月.送炼钢厂SI小$</td>
+<td align=right>$累计.送炼钢厂SI小$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >工艺称焦比</td>
+<td align=right>$本月.高炉1.工艺称焦比$</td>
+<td align=right>$累计.高炉1.工艺称焦比$</td>
+<td align=right>$本月.高炉2.工艺称焦比$</td>
+<td align=right>$累计.高炉2.工艺称焦比$</td>
+<td align=right>$本月.高炉3.工艺称焦比$</td>
+<td align=right>$累计.高炉3.工艺称焦比$</td>
+<td align=right>$本月.高炉4.工艺称焦比$</td>
+<td align=right>$累计.高炉4.工艺称焦比$</td>
+<td align=right>$本月.高炉5.工艺称焦比$</td>
+<td align=right>$累计.高炉5.工艺称焦比$</td>
+<td align=right>$本月.高炉6.工艺称焦比$</td>
+<td align=right>$累计.高炉6.工艺称焦比$</td>
+<td align=right>$本月.工艺称焦比$</td>
+<td align=right>$累计.工艺称焦比$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >全铁产量</td>
+<td align=right>$本月.高炉1.全铁产量$</td>
+<td align=right>$累计.高炉1.全铁产量$</td>
+<td align=right>$本月.高炉2.全铁产量$</td>
+<td align=right>$累计.高炉2.全铁产量$</td>
+<td align=right>$本月.高炉3.全铁产量$</td>
+<td align=right>$累计.高炉3.全铁产量$</td>
+<td align=right>$本月.高炉4.全铁产量$</td>
+<td align=right>$累计.高炉4.全铁产量$</td>
+<td align=right>$本月.高炉5.全铁产量$</td>
+<td align=right>$累计.高炉5.全铁产量$</td>
+<td align=right>$本月.高炉6.全铁产量$</td>
+<td align=right>$累计.高炉6.全铁产量$</td>
+<td align=right>$本月.全铁产量$</td>
+<td align=right>$累计.全铁产量$</td>
+</tr>
+<tr>
+<td align=center colspan=2 bgColor=#c6ffc6 >折算产量</td>
+<td align=right>$本月.高炉1.折算产量$</td>
+<td align=right>$累计.高炉1.折算产量$</td>
+<td align=right>$本月.高炉2.折算产量$</td>
+<td align=right>$累计.高炉2.折算产量$</td>
+<td align=right>$本月.高炉3.折算产量$</td>
+<td align=right>$累计.高炉3.折算产量$</td>
+<td align=right>$本月.高炉4.折算产量$</td>
+<td align=right>$累计.高炉4.折算产量$</td>
+<td align=right>$本月.高炉5.折算产量$</td>
+<td align=right>$累计.高炉5.折算产量$</td>
+<td align=right>$本月.高炉6.折算产量$</td>
+<td align=right>$累计.高炉6.折算产量$</td>
+<td align=right>$本月.折算产量$</td>
+<td align=right>$累计.折算产量$</td>
+</tr>
+</TBODY>
+</table>
+</BODY></HTML>

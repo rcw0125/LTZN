@@ -1,0 +1,26 @@
+   (RQ  原料消耗.日期%TYPE,
+           GAOLU  原料消耗.高炉%TYPE,
+          JISHAO OUT 原料消耗.机烧矿%TYPE,
+          SHUQIU OUT 原料消耗.竖球%TYPE,
+           BENXI OUT 原料消耗.本溪矿%TYPE,
+          GONGYI OUT 原料消耗.工艺称%TYPE,
+        JIAODING OUT 原料消耗.焦丁%TYPE,
+          MEIFEN OUT 原料消耗.煤粉%TYPE,
+          FUYANG OUT 原料消耗.富氧量%TYPE,
+          ZICHAN OUT 原料消耗.自产湿焦%TYPE,
+           LUODI OUT 原料消耗.落地湿焦%TYPE,
+         SHULIAO OUT 原料消耗.熟料%TYPE,
+       SHULIAOMC OUT 原料消耗.熟料名称%TYPE,
+       SHENGLIAO OUT 原料消耗.生料%TYPE,
+     SHENGLIAOMC OUT 原料消耗.生料名称%TYPE)
+IS
+CURSOR sel is SELECT 机烧矿, 竖球, 本溪矿, 工艺称, 焦丁,煤粉, 富氧量, 自产湿焦, 落地湿焦, 熟料,熟料名称, 生料,生料名称
+              FROM 原料消耗 WHERE (日期=RQ AND 高炉=GAOLU);            
+BEGIN
+OPEN sel;
+FETCH sel INTO JISHAO, SHUQIU, BENXI, GONGYI, JIAODING,MEIFEN, FUYANG, ZICHAN, LUODI, SHULIAO,SHULIAOMC, SHENGLIAO,SHENGLIAOMC;
+IF sel%NOTFOUND THEN
+INSERT INTO 原料消耗(日期, 高炉) VALUES (RQ, GAOLU);
+END IF;
+CLOSE sel;
+END;

@@ -1,0 +1,1011 @@
+<H1 align=center>技术日报</H1>
+<HR width="80%">
+
+<TABLE  align=center bgColor=#333333 border=0.5>
+<TBODY>
+<TR>
+<TD align=right width=56  height=24>单位</TD>
+<TD align=right width=56  height=24>项目</TD>
+<TD align=right width=56  height=24>合格铁</TD>
+<TD align=right width=56  height=24>炼钢铁</TD>
+<TD align=right width=76  height=24>铸造铁</TD>
+<TD align=right width=82  height=24>号外铁</TD>
+<TD align=right width=76  height=24>合格率</TD>
+<TD align=right width=61  height=24>利用系数</TD>
+<TD align=right width=61  height=24>实物系数</TD>
+<TD align=right width=38  height=24>原料矿总耗</TD>
+<TD align=right width=38  height=24>原料矿单耗</TD>
+<TD align=right width=38  height=24>机烧</TD>
+<TD align=right width=38  height=24>竖球</TD>
+<TD align=right width=38  height=24>其它熟料</TD>
+<TD align=right width=38  height=24>本溪矿</TD>
+<TD align=right width=38  height=24>其它生料</TD>
+<TD align=right width=38  height=24>废铁总耗</TD>
+<TD align=right width=38  height=24>废铁单耗</TD>
+<TD align=right width=38  height=24>回收率</TD>
+<TD align=right width=38  height=24>熟料比</TD>
+<TD align=right width=38  height=24>平均风温</TD>
+<TD align=right width=38  height=24>炉顶温度</TD>
+<TD align=right width=38  height=24>热风压力</TD>
+<TD align=right width=38  height=24>炉顶压力</TD>
+<TD align=right width=38  height=24>富氧率</TD>
+<TD align=right width=38  height=24>入炉焦炭总耗</TD>
+<TD align=right width=38  height=24>入炉焦炭单耗</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>1高炉</TD>
+<TD bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right width=56  height=24>$本日.高炉1.合格铁$</TD>
+<TD align=right width=56  height=24>$本日.高炉1.炼钢铁$</TD>
+<TD align=right width=76  height=24>$本日.高炉1.铸造铁$</TD>
+<TD align=right width=82  height=24>$本日.高炉1.号外铁$</TD>
+<TD align=right width=76  height=24>$本日.高炉1.合格率$</TD>
+<TD align=right width=61  height=24>$本日.高炉1.利用系数$</TD>
+<TD align=right width=61  height=24>$本日.高炉1.实物系数$</TD>
+<TD align=right width=38  height=24>$本日.高炉1.原料矿总耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉1.原料矿单耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉1.机烧$</TD>
+<TD align=right width=38  height=24>$本日.高炉1.竖球$</TD>
+<TD align=right width=38  height=24>$本日.高炉1.其它熟料$</TD>
+<TD align=right width=38  height=24>$本日.高炉1.本溪矿$</TD>
+<TD align=right width=38  height=24>$本日.高炉1.其它生料$</TD>
+<TD align=right width=38  height=24>$本日.高炉1.废铁总耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉1.废铁单耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉1.回收率$</TD>
+<TD align=right width=38  height=24>$本日.高炉1.熟料比$</TD>
+<TD align=right width=38  height=24>$本日.高炉1.平均风温$</TD>
+<TD align=right width=38  height=24>$本日.高炉1.炉顶温度$</TD>
+<TD align=right width=38  height=24>$本日.高炉1.热风压力$</TD>
+<TD align=right width=38  height=24>$本日.高炉1.炉顶压力$</TD>
+<TD align=right width=38  height=24>$本日.高炉1.富氧率$</TD>
+<TD align=right width=38  height=24>$本日.高炉1.入炉焦炭总耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉1.入炉焦炭单耗$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>1高炉</TD>
+<TD bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right width=56  height=24>$累计.高炉1.合格铁$</TD>
+<TD align=right width=56  height=24>$累计.高炉1.炼钢铁$</TD>
+<TD align=right width=76  height=24>$累计.高炉1.铸造铁$</TD>
+<TD align=right width=82  height=24>$累计.高炉1.号外铁$</TD>
+<TD align=right width=76  height=24>$累计.高炉1.合格率$</TD>
+<TD align=right width=61  height=24>$累计.高炉1.利用系数$</TD>
+<TD align=right width=61  height=24>$累计.高炉1.实物系数$</TD>
+<TD align=right width=38  height=24>$累计.高炉1.原料矿总耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉1.原料矿单耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉1.机烧$</TD>
+<TD align=right width=38  height=24>$累计.高炉1.竖球$</TD>
+<TD align=right width=38  height=24>$累计.高炉1.其它熟料$</TD>
+<TD align=right width=38  height=24>$累计.高炉1.本溪矿$</TD>
+<TD align=right width=38  height=24>$累计.高炉1.其它生料$</TD>
+<TD align=right width=38  height=24>$累计.高炉1.废铁总耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉1.废铁单耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉1.回收率$</TD>
+<TD align=right width=38  height=24>$累计.高炉1.熟料比$</TD>
+<TD align=right width=38  height=24>$累计.高炉1.平均风温$</TD>
+<TD align=right width=38  height=24>$累计.高炉1.炉顶温度$</TD>
+<TD align=right width=38  height=24>$累计.高炉1.热风压力$</TD>
+<TD align=right width=38  height=24>$累计.高炉1.炉顶压力$</TD>
+<TD align=right width=38  height=24>$累计.高炉1.富氧率$</TD>
+<TD align=right width=38  height=24>$累计.高炉1.入炉焦炭总耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉1.入炉焦炭单耗$</TD>
+</TR>
+
+<TR>
+<TD bgColor=#d7d7ff height=24>2高炉</TD>
+<TD bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right width=56  height=24>$本日.高炉2.合格铁$</TD>
+<TD align=right width=56  height=24>$本日.高炉2.炼钢铁$</TD>
+<TD align=right width=76  height=24>$本日.高炉2.铸造铁$</TD>
+<TD align=right width=82  height=24>$本日.高炉2.号外铁$</TD>
+<TD align=right width=76  height=24>$本日.高炉2.合格率$</TD>
+<TD align=right width=62  height=24>$本日.高炉2.利用系数$</TD>
+<TD align=right width=62  height=24>$本日.高炉2.实物系数$</TD>
+<TD align=right width=38  height=24>$本日.高炉2.原料矿总耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉2.原料矿单耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉2.机烧$</TD>
+<TD align=right width=38  height=24>$本日.高炉2.竖球$</TD>
+<TD align=right width=38  height=24>$本日.高炉2.其它熟料$</TD>
+<TD align=right width=38  height=24>$本日.高炉2.本溪矿$</TD>
+<TD align=right width=38  height=24>$本日.高炉2.其它生料$</TD>
+<TD align=right width=38  height=24>$本日.高炉2.废铁总耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉2.废铁单耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉2.回收率$</TD>
+<TD align=right width=38  height=24>$本日.高炉2.熟料比$</TD>
+<TD align=right width=38  height=24>$本日.高炉2.平均风温$</TD>
+<TD align=right width=38  height=24>$本日.高炉2.炉顶温度$</TD>
+<TD align=right width=38  height=24>$本日.高炉2.热风压力$</TD>
+<TD align=right width=38  height=24>$本日.高炉2.炉顶压力$</TD>
+<TD align=right width=38  height=24>$本日.高炉2.富氧率$</TD>
+<TD align=right width=38  height=24>$本日.高炉2.入炉焦炭总耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉2.入炉焦炭单耗$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>2高炉</TD>
+<TD bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right width=56  height=24>$累计.高炉2.合格铁$</TD>
+<TD align=right width=56  height=24>$累计.高炉2.炼钢铁$</TD>
+<TD align=right width=76  height=24>$累计.高炉2.铸造铁$</TD>
+<TD align=right width=82  height=24>$累计.高炉2.号外铁$</TD>
+<TD align=right width=76  height=24>$累计.高炉2.合格率$</TD>
+<TD align=right width=62  height=24>$累计.高炉2.利用系数$</TD>
+<TD align=right width=62  height=24>$累计.高炉2.实物系数$</TD>
+<TD align=right width=38  height=24>$累计.高炉2.原料矿总耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉2.原料矿单耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉2.机烧$</TD>
+<TD align=right width=38  height=24>$累计.高炉2.竖球$</TD>
+<TD align=right width=38  height=24>$累计.高炉2.其它熟料$</TD>
+<TD align=right width=38  height=24>$累计.高炉2.本溪矿$</TD>
+<TD align=right width=38  height=24>$累计.高炉2.其它生料$</TD>
+<TD align=right width=38  height=24>$累计.高炉2.废铁总耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉2.废铁单耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉2.回收率$</TD>
+<TD align=right width=38  height=24>$累计.高炉2.熟料比$</TD>
+<TD align=right width=38  height=24>$累计.高炉2.平均风温$</TD>
+<TD align=right width=38  height=24>$累计.高炉2.炉顶温度$</TD>
+<TD align=right width=38  height=24>$累计.高炉2.热风压力$</TD>
+<TD align=right width=38  height=24>$累计.高炉2.炉顶压力$</TD>
+<TD align=right width=38  height=24>$累计.高炉2.富氧率$</TD>
+<TD align=right width=38  height=24>$累计.高炉2.入炉焦炭总耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉2.入炉焦炭单耗$</TD>
+</TR>
+
+<TR>
+<TD bgColor=#d7d7ff height=24>3高炉</TD>
+<TD bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right width=56  height=24>$本日.高炉3.合格铁$</TD>
+<TD align=right width=56  height=24>$本日.高炉3.炼钢铁$</TD>
+<TD align=right width=76  height=24>$本日.高炉3.铸造铁$</TD>
+<TD align=right width=82  height=24>$本日.高炉3.号外铁$</TD>
+<TD align=right width=76  height=24>$本日.高炉3.合格率$</TD>
+<TD align=right width=63  height=24>$本日.高炉3.利用系数$</TD>
+<TD align=right width=63  height=24>$本日.高炉3.实物系数$</TD>
+<TD align=right width=38  height=24>$本日.高炉3.原料矿总耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉3.原料矿单耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉3.机烧$</TD>
+<TD align=right width=38  height=24>$本日.高炉3.竖球$</TD>
+<TD align=right width=38  height=24>$本日.高炉3.其它熟料$</TD>
+<TD align=right width=38  height=24>$本日.高炉3.本溪矿$</TD>
+<TD align=right width=38  height=24>$本日.高炉3.其它生料$</TD>
+<TD align=right width=38  height=24>$本日.高炉3.废铁总耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉3.废铁单耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉3.回收率$</TD>
+<TD align=right width=38  height=24>$本日.高炉3.熟料比$</TD>
+<TD align=right width=38  height=24>$本日.高炉3.平均风温$</TD>
+<TD align=right width=38  height=24>$本日.高炉3.炉顶温度$</TD>
+<TD align=right width=38  height=24>$本日.高炉3.热风压力$</TD>
+<TD align=right width=38  height=24>$本日.高炉3.炉顶压力$</TD>
+<TD align=right width=38  height=24>$本日.高炉3.富氧率$</TD>
+<TD align=right width=38  height=24>$本日.高炉3.入炉焦炭总耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉3.入炉焦炭单耗$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>3高炉</TD>
+<TD bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right width=56  height=24>$累计.高炉3.合格铁$</TD>
+<TD align=right width=56  height=24>$累计.高炉3.炼钢铁$</TD>
+<TD align=right width=76  height=24>$累计.高炉3.铸造铁$</TD>
+<TD align=right width=82  height=24>$累计.高炉3.号外铁$</TD>
+<TD align=right width=76  height=24>$累计.高炉3.合格率$</TD>
+<TD align=right width=63  height=24>$累计.高炉3.利用系数$</TD>
+<TD align=right width=63  height=24>$累计.高炉3.实物系数$</TD>
+<TD align=right width=38  height=24>$累计.高炉3.原料矿总耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉3.原料矿单耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉3.机烧$</TD>
+<TD align=right width=38  height=24>$累计.高炉3.竖球$</TD>
+<TD align=right width=38  height=24>$累计.高炉3.其它熟料$</TD>
+<TD align=right width=38  height=24>$累计.高炉3.本溪矿$</TD>
+<TD align=right width=38  height=24>$累计.高炉3.其它生料$</TD>
+<TD align=right width=38  height=24>$累计.高炉3.废铁总耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉3.废铁单耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉3.回收率$</TD>
+<TD align=right width=38  height=24>$累计.高炉3.熟料比$</TD>
+<TD align=right width=38  height=24>$累计.高炉3.平均风温$</TD>
+<TD align=right width=38  height=24>$累计.高炉3.炉顶温度$</TD>
+<TD align=right width=38  height=24>$累计.高炉3.热风压力$</TD>
+<TD align=right width=38  height=24>$累计.高炉3.炉顶压力$</TD>
+<TD align=right width=38  height=24>$累计.高炉3.富氧率$</TD>
+<TD align=right width=38  height=24>$累计.高炉3.入炉焦炭总耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉3.入炉焦炭单耗$</TD>
+</TR>
+
+<TR>
+<TD bgColor=#d7d7ff height=24>4高炉</TD>
+<TD bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right width=56  height=24>$本日.高炉4.合格铁$</TD>
+<TD align=right width=56  height=24>$本日.高炉4.炼钢铁$</TD>
+<TD align=right width=76  height=24>$本日.高炉4.铸造铁$</TD>
+<TD align=right width=82  height=24>$本日.高炉4.号外铁$</TD>
+<TD align=right width=76  height=24>$本日.高炉4.合格率$</TD>
+<TD align=right width=64  height=24>$本日.高炉4.利用系数$</TD>
+<TD align=right width=64  height=24>$本日.高炉4.实物系数$</TD>
+<TD align=right width=38  height=24>$本日.高炉4.原料矿总耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉4.原料矿单耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉4.机烧$</TD>
+<TD align=right width=38  height=24>$本日.高炉4.竖球$</TD>
+<TD align=right width=38  height=24>$本日.高炉4.其它熟料$</TD>
+<TD align=right width=38  height=24>$本日.高炉4.本溪矿$</TD>
+<TD align=right width=38  height=24>$本日.高炉4.其它生料$</TD>
+<TD align=right width=38  height=24>$本日.高炉4.废铁总耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉4.废铁单耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉4.回收率$</TD>
+<TD align=right width=38  height=24>$本日.高炉4.熟料比$</TD>
+<TD align=right width=38  height=24>$本日.高炉4.平均风温$</TD>
+<TD align=right width=38  height=24>$本日.高炉4.炉顶温度$</TD>
+<TD align=right width=38  height=24>$本日.高炉4.热风压力$</TD>
+<TD align=right width=38  height=24>$本日.高炉4.炉顶压力$</TD>
+<TD align=right width=38  height=24>$本日.高炉4.富氧率$</TD>
+<TD align=right width=38  height=24>$本日.高炉4.入炉焦炭总耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉4.入炉焦炭单耗$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>4高炉</TD>
+<TD bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right width=56  height=24>$累计.高炉4.合格铁$</TD>
+<TD align=right width=56  height=24>$累计.高炉4.炼钢铁$</TD>
+<TD align=right width=76  height=24>$累计.高炉4.铸造铁$</TD>
+<TD align=right width=82  height=24>$累计.高炉4.号外铁$</TD>
+<TD align=right width=76  height=24>$累计.高炉4.合格率$</TD>
+<TD align=right width=64  height=24>$累计.高炉4.利用系数$</TD>
+<TD align=right width=64  height=24>$累计.高炉4.实物系数$</TD>
+<TD align=right width=38  height=24>$累计.高炉4.原料矿总耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉4.原料矿单耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉4.机烧$</TD>
+<TD align=right width=38  height=24>$累计.高炉4.竖球$</TD>
+<TD align=right width=38  height=24>$累计.高炉4.其它熟料$</TD>
+<TD align=right width=38  height=24>$累计.高炉4.本溪矿$</TD>
+<TD align=right width=38  height=24>$累计.高炉4.其它生料$</TD>
+<TD align=right width=38  height=24>$累计.高炉4.废铁总耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉4.废铁单耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉4.回收率$</TD>
+<TD align=right width=38  height=24>$累计.高炉4.熟料比$</TD>
+<TD align=right width=38  height=24>$累计.高炉4.平均风温$</TD>
+<TD align=right width=38  height=24>$累计.高炉4.炉顶温度$</TD>
+<TD align=right width=38  height=24>$累计.高炉4.热风压力$</TD>
+<TD align=right width=38  height=24>$累计.高炉4.炉顶压力$</TD>
+<TD align=right width=38  height=24>$累计.高炉4.富氧率$</TD>
+<TD align=right width=38  height=24>$累计.高炉4.入炉焦炭总耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉4.入炉焦炭单耗$</TD>
+</TR>
+
+<TR>
+<TD bgColor=#d7d7ff height=24>5高炉</TD>
+<TD bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right width=56  height=24>$本日.高炉5.合格铁$</TD>
+<TD align=right width=56  height=24>$本日.高炉5.炼钢铁$</TD>
+<TD align=right width=76  height=24>$本日.高炉5.铸造铁$</TD>
+<TD align=right width=82  height=24>$本日.高炉5.号外铁$</TD>
+<TD align=right width=76  height=24>$本日.高炉5.合格率$</TD>
+<TD align=right width=65  height=24>$本日.高炉5.利用系数$</TD>
+<TD align=right width=65  height=24>$本日.高炉5.实物系数$</TD>
+<TD align=right width=38  height=24>$本日.高炉5.原料矿总耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉5.原料矿单耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉5.机烧$</TD>
+<TD align=right width=38  height=24>$本日.高炉5.竖球$</TD>
+<TD align=right width=38  height=24>$本日.高炉5.其它熟料$</TD>
+<TD align=right width=38  height=24>$本日.高炉5.本溪矿$</TD>
+<TD align=right width=38  height=24>$本日.高炉5.其它生料$</TD>
+<TD align=right width=38  height=24>$本日.高炉5.废铁总耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉5.废铁单耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉5.回收率$</TD>
+<TD align=right width=38  height=24>$本日.高炉5.熟料比$</TD>
+<TD align=right width=38  height=24>$本日.高炉5.平均风温$</TD>
+<TD align=right width=38  height=24>$本日.高炉5.炉顶温度$</TD>
+<TD align=right width=38  height=24>$本日.高炉5.热风压力$</TD>
+<TD align=right width=38  height=24>$本日.高炉5.炉顶压力$</TD>
+<TD align=right width=38  height=24>$本日.高炉5.富氧率$</TD>
+<TD align=right width=38  height=24>$本日.高炉5.入炉焦炭总耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉5.入炉焦炭单耗$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>5高炉</TD>
+<TD bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right width=56  height=24>$累计.高炉5.合格铁$</TD>
+<TD align=right width=56  height=24>$累计.高炉5.炼钢铁$</TD>
+<TD align=right width=76  height=24>$累计.高炉5.铸造铁$</TD>
+<TD align=right width=82  height=24>$累计.高炉5.号外铁$</TD>
+<TD align=right width=76  height=24>$累计.高炉5.合格率$</TD>
+<TD align=right width=65  height=24>$累计.高炉5.利用系数$</TD>
+<TD align=right width=65  height=24>$累计.高炉5.实物系数$</TD>
+<TD align=right width=38  height=24>$累计.高炉5.原料矿总耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉5.原料矿单耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉5.机烧$</TD>
+<TD align=right width=38  height=24>$累计.高炉5.竖球$</TD>
+<TD align=right width=38  height=24>$累计.高炉5.其它熟料$</TD>
+<TD align=right width=38  height=24>$累计.高炉5.本溪矿$</TD>
+<TD align=right width=38  height=24>$累计.高炉5.其它生料$</TD>
+<TD align=right width=38  height=24>$累计.高炉5.废铁总耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉5.废铁单耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉5.回收率$</TD>
+<TD align=right width=38  height=24>$累计.高炉5.熟料比$</TD>
+<TD align=right width=38  height=24>$累计.高炉5.平均风温$</TD>
+<TD align=right width=38  height=24>$累计.高炉5.炉顶温度$</TD>
+<TD align=right width=38  height=24>$累计.高炉5.热风压力$</TD>
+<TD align=right width=38  height=24>$累计.高炉5.炉顶压力$</TD>
+<TD align=right width=38  height=24>$累计.高炉5.富氧率$</TD>
+<TD align=right width=38  height=24>$累计.高炉5.入炉焦炭总耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉5.入炉焦炭单耗$</TD>
+</TR>
+
+<TR>
+<TD bgColor=#d7d7ff height=24>6高炉</TD>
+<TD bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right width=56  height=24>$本日.高炉6.合格铁$</TD>
+<TD align=right width=56  height=24>$本日.高炉6.炼钢铁$</TD>
+<TD align=right width=76  height=24>$本日.高炉6.铸造铁$</TD>
+<TD align=right width=82  height=24>$本日.高炉6.号外铁$</TD>
+<TD align=right width=76  height=24>$本日.高炉6.合格率$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.利用系数$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.实物系数$</TD>
+<TD align=right width=38  height=24>$本日.高炉6.原料矿总耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉6.原料矿单耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉6.机烧$</TD>
+<TD align=right width=38  height=24>$本日.高炉6.竖球$</TD>
+<TD align=right width=38  height=24>$本日.高炉6.其它熟料$</TD>
+<TD align=right width=38  height=24>$本日.高炉6.本溪矿$</TD>
+<TD align=right width=38  height=24>$本日.高炉6.其它生料$</TD>
+<TD align=right width=38  height=24>$本日.高炉6.废铁总耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉6.废铁单耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉6.回收率$</TD>
+<TD align=right width=38  height=24>$本日.高炉6.熟料比$</TD>
+<TD align=right width=38  height=24>$本日.高炉6.平均风温$</TD>
+<TD align=right width=38  height=24>$本日.高炉6.炉顶温度$</TD>
+<TD align=right width=38  height=24>$本日.高炉6.热风压力$</TD>
+<TD align=right width=38  height=24>$本日.高炉6.炉顶压力$</TD>
+<TD align=right width=38  height=24>$本日.高炉6.富氧率$</TD>
+<TD align=right width=38  height=24>$本日.高炉6.入炉焦炭总耗$</TD>
+<TD align=right width=38  height=24>$本日.高炉6.入炉焦炭单耗$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>6高炉</TD>
+<TD bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right width=56  height=24>$累计.高炉6.合格铁$</TD>
+<TD align=right width=56  height=24>$累计.高炉6.炼钢铁$</TD>
+<TD align=right width=76  height=24>$累计.高炉6.铸造铁$</TD>
+<TD align=right width=82  height=24>$累计.高炉6.号外铁$</TD>
+<TD align=right width=76  height=24>$累计.高炉6.合格率$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.利用系数$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.实物系数$</TD>
+<TD align=right width=38  height=24>$累计.高炉6.原料矿总耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉6.原料矿单耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉6.机烧$</TD>
+<TD align=right width=38  height=24>$累计.高炉6.竖球$</TD>
+<TD align=right width=38  height=24>$累计.高炉6.其它熟料$</TD>
+<TD align=right width=38  height=24>$累计.高炉6.本溪矿$</TD>
+<TD align=right width=38  height=24>$累计.高炉6.其它生料$</TD>
+<TD align=right width=38  height=24>$累计.高炉6.废铁总耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉6.废铁单耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉6.回收率$</TD>
+<TD align=right width=38  height=24>$累计.高炉6.熟料比$</TD>
+<TD align=right width=38  height=24>$累计.高炉6.平均风温$</TD>
+<TD align=right width=38  height=24>$累计.高炉6.炉顶温度$</TD>
+<TD align=right width=38  height=24>$累计.高炉6.热风压力$</TD>
+<TD align=right width=38  height=24>$累计.高炉6.炉顶压力$</TD>
+<TD align=right width=38  height=24>$累计.高炉6.富氧率$</TD>
+<TD align=right width=38  height=24>$累计.高炉6.入炉焦炭总耗$</TD>
+<TD align=right width=38  height=24>$累计.高炉6.入炉焦炭单耗$</TD>
+</TR>
+
+<TR>
+<TD bgColor=#d7d7ff height=24>全&nbsp;厂</TD>
+<TD bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right width=56  height=24>$本日.合格铁$</TD>
+<TD align=right width=56  height=24>$本日.炼钢铁$</TD>
+<TD align=right width=76  height=24>$本日.铸造铁$</TD>
+<TD align=right width=82  height=24>$本日.号外铁$</TD>
+<TD align=right width=76  height=24>$本日.合格率$</TD>
+<TD align=right width=61  height=24>$本日.利用系数$</TD>
+<TD align=right width=61  height=24>$本日.实物系数$</TD>
+<TD align=right width=38  height=24>$本日.原料矿总耗$</TD>
+<TD align=right width=38  height=24>$本日.原料矿单耗$</TD>
+<TD align=right width=38  height=24>$本日.机烧$</TD>
+<TD align=right width=38  height=24>$本日.竖球$</TD>
+<TD align=right width=38  height=24>$本日.其它熟料$</TD>
+<TD align=right width=38  height=24>$本日.本溪矿$</TD>
+<TD align=right width=38  height=24>$本日.其它生料$</TD>
+<TD align=right width=38  height=24>$本日.废铁总耗$</TD>
+<TD align=right width=38  height=24>$本日.废铁单耗$</TD>
+<TD align=right width=38  height=24>$本日.回收率$</TD>
+<TD align=right width=38  height=24>$本日.熟料比$</TD>
+<TD align=right width=38  height=24>$本日.平均风温$</TD>
+<TD align=right width=38  height=24>$本日.炉顶温度$</TD>
+<TD align=right width=38  height=24>$本日.热风压力$</TD>
+<TD align=right width=38  height=24>$本日.炉顶压力$</TD>
+<TD align=right width=38  height=24>$本日.富氧率$</TD>
+<TD align=right width=38  height=24>$本日.入炉焦炭总耗$</TD>
+<TD align=right width=38  height=24>$本日.入炉焦炭单耗$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>全&nbsp;厂</TD>
+<TD bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right width=56  height=24>$累计.合格铁$</TD>
+<TD align=right width=56  height=24>$累计.炼钢铁$</TD>
+<TD align=right width=76  height=24>$累计.铸造铁$</TD>
+<TD align=right width=82  height=24>$累计.号外铁$</TD>
+<TD align=right width=76  height=24>$累计.合格率$</TD>
+<TD align=right width=61  height=24>$累计.利用系数$</TD>
+<TD align=right width=61  height=24>$累计.实物系数$</TD>
+<TD align=right width=38  height=24>$累计.原料矿总耗$</TD>
+<TD align=right width=38  height=24>$累计.原料矿单耗$</TD>
+<TD align=right width=38  height=24>$累计.机烧$</TD>
+<TD align=right width=38  height=24>$累计.竖球$</TD>
+<TD align=right width=38  height=24>$累计.其它熟料$</TD>
+<TD align=right width=38  height=24>$累计.本溪矿$</TD>
+<TD align=right width=38  height=24>$累计.其它生料$</TD>
+<TD align=right width=38  height=24>$累计.废铁总耗$</TD>
+<TD align=right width=38  height=24>$累计.废铁单耗$</TD>
+<TD align=right width=38  height=24>$累计.回收率$</TD>
+<TD align=right width=38  height=24>$累计.熟料比$</TD>
+<TD align=right width=38  height=24>$累计.平均风温$</TD>
+<TD align=right width=38  height=24>$累计.炉顶温度$</TD>
+<TD align=right width=38  height=24>$累计.热风压力$</TD>
+<TD align=right width=38  height=24>$累计.炉顶压力$</TD>
+<TD align=right width=38  height=24>$累计.富氧率$</TD>
+<TD align=right width=38  height=24>$累计.入炉焦炭总耗$</TD>
+<TD align=right width=38  height=24>$累计.入炉焦炭单耗$</TD>
+</TR>
+</TBODY></TABLE>
+<TABLE height=147 cellPadding=1 align=center bgColor=#cccccc border=0>
+<TBODY>
+<TR>
+<TD align=right width=56  height=24>单位</TD>
+<TD align=right width=80  height=24>项目</TD>
+<TD align=right width=80  height=24>煤粉总耗</TD>
+<TD align=right width=67  height=24>煤粉单耗</TD>
+<TD align=right width=55  height=24>焦丁总耗</TD>
+<TD align=right width=45  height=24>焦丁单耗</TD>
+<TD align=right width=45  height=24>综合焦炭总耗</TD>
+<TD align=right width=45  height=24>综合焦炭单耗</TD>
+<TD align=right width=49  height=24>综合折算焦比</TD>
+<TD align=right width=45  height=24>工艺称焦比</TD>
+<TD align=right width=49  height=24>冶炼强度</TD>
+<TD align=right width=45  height=24>焦炭负荷</TD>
+<TD align=right width=45  height=24>干毛焦</TD>
+<TD align=right width=66  height=24>炼钢铁Si</TD>
+<TD align=right width=66  height=24>炼钢铁Mn</TD>
+<TD align=right width=66  height=24>炼钢铁P</TD>
+<TD align=right width=66  height=24>炼钢铁S</TD>
+<TD align=right width=66  height=24>铸造铁Si</TD>
+<TD align=right width=66  height=24>铸造铁Mn</TD>
+<TD align=right width=66  height=24>铸造铁P</TD>
+<TD align=right width=66  height=24>铸造铁S</TD>
+<TD align=right width=66  height=24>炉渣碱度</TD>
+<TD align=right width=66  height=24>休风情况</TD>
+<TD align=right width=66  height=24>慢风</TD>
+<TD align=right width=66  height=24>坐料次数</TD>
+<TD align=right width=66  height=24>悬料次数</TD>
+<TD align=right width=66  height=24>崩料次数</TD>
+<TD align=right width=66  height=24>风口损坏数大</TD>
+<TD align=right width=66  height=24>风口损坏数中</TD>
+<TD align=right width=66  height=24>风口损坏数小</TD>
+<TD align=right width=66  height=24>渣口损坏数大</TD>
+<TD align=right width=66  height=24>渣口损坏数中</TD>
+<TD align=right width=66  height=24>渣口损坏数小</TD>
+<TD align=right width=66  height=24>本厂铸造</TD>
+<TD align=right width=66  height=24>送炼钢铁</TD>
+</TR>
+
+<TR>
+<TD bgColor=#d7d7ff height=24>1高炉</TD>
+<TD bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right width=80  height=24>$本日.高炉1.煤粉总耗$</TD>
+<TD align=right width=67  height=24>$本日.高炉1.煤粉单耗$</TD>
+<TD align=right width=55  height=24>$本日.高炉1.焦丁总耗$</TD>
+<TD align=right width=45  height=24>$本日.高炉1.焦丁单耗$</TD>
+<TD align=right width=45  height=24>$本日.高炉1.综合焦炭总耗$</TD>
+<TD align=right width=45  height=24>$本日.高炉1.综合焦炭单耗$</TD>
+<TD align=right width=49  height=24>$本日.高炉1.综合折算焦比$</TD>
+<TD align=right width=45  height=24>$本日.高炉1.工艺称焦比$</TD>
+<TD align=right width=49  height=24>$本日.高炉1.冶炼强度$</TD>
+<TD align=right width=45  height=24>$本日.高炉1.焦炭负荷$</TD>
+<TD align=right width=45  height=24>$本日.高炉1.干毛焦$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.炼钢铁Si$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.炼钢铁Mn$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.炼钢铁P$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.炼钢铁S$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.铸造铁Si$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.铸造铁Mn$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.铸造铁P$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.铸造铁S$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.炉渣碱度$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.休风情况$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.慢风$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.坐料次数$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.悬料次数$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.崩料次数$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.风口损坏数大$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.风口损坏数中$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.风口损坏数小$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.渣口损坏数大$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.渣口损坏数中$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.渣口损坏数小$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.本厂铸造$</TD>
+<TD align=right width=66  height=24>$本日.高炉1.送炼钢铁$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>1高炉</TD>
+<TD bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right width=80  height=24>$累计.高炉1.煤粉总耗$</TD>
+<TD align=right width=67  height=24>$累计.高炉1.煤粉单耗$</TD>
+<TD align=right width=55  height=24>$累计.高炉1.焦丁总耗$</TD>
+<TD align=right width=45  height=24>$累计.高炉1.焦丁单耗$</TD>
+<TD align=right width=45  height=24>$累计.高炉1.综合焦炭总耗$</TD>
+<TD align=right width=45  height=24>$累计.高炉1.综合焦炭单耗$</TD>
+<TD align=right width=49  height=24>$累计.高炉1.综合折算焦比$</TD>
+<TD align=right width=45  height=24>$累计.高炉1.工艺称焦比$</TD>
+<TD align=right width=49  height=24>$累计.高炉1.冶炼强度$</TD>
+<TD align=right width=45  height=24>$累计.高炉1.焦炭负荷$</TD>
+<TD align=right width=45  height=24>$累计.高炉1.干毛焦$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.炼钢铁Si$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.炼钢铁Mn$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.炼钢铁P$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.炼钢铁S$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.铸造铁Si$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.铸造铁Mn$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.铸造铁P$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.铸造铁S$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.炉渣碱度$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.休风情况$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.慢风$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.坐料次数$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.悬料次数$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.崩料次数$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.风口损坏数大$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.风口损坏数中$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.风口损坏数小$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.渣口损坏数大$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.渣口损坏数中$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.渣口损坏数小$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.本厂铸造$</TD>
+<TD align=right width=66  height=24>$累计.高炉1.送炼钢铁$</TD>
+</TR>
+
+<TR>
+<TD bgColor=#d7d7ff height=24>2高炉</TD>
+<TD bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right width=80  height=24>$本日.高炉2.煤粉总耗$</TD>
+<TD align=right width=67  height=24>$本日.高炉2.煤粉单耗$</TD>
+<TD align=right width=55  height=24>$本日.高炉2.焦丁总耗$</TD>
+<TD align=right width=45  height=24>$本日.高炉2.焦丁单耗$</TD>
+<TD align=right width=45  height=24>$本日.高炉2.综合焦炭总耗$</TD>
+<TD align=right width=45  height=24>$本日.高炉2.综合焦炭单耗$</TD>
+<TD align=right width=49  height=24>$本日.高炉2.综合折算焦比$</TD>
+<TD align=right width=45  height=24>$本日.高炉2.工艺称焦比$</TD>
+<TD align=right width=49  height=24>$本日.高炉2.冶炼强度$</TD>
+<TD align=right width=45  height=24>$本日.高炉2.焦炭负荷$</TD>
+<TD align=right width=45  height=24>$本日.高炉2.干毛焦$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.炼钢铁Si$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.炼钢铁Mn$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.炼钢铁P$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.炼钢铁S$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.铸造铁Si$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.铸造铁Mn$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.铸造铁P$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.铸造铁S$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.炉渣碱度$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.休风情况$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.慢风$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.坐料次数$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.悬料次数$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.崩料次数$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.风口损坏数大$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.风口损坏数中$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.风口损坏数小$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.渣口损坏数大$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.渣口损坏数中$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.渣口损坏数小$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.本厂铸造$</TD>
+<TD align=right width=66  height=24>$本日.高炉2.送炼钢铁$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>2高炉</TD>
+<TD bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right width=80  height=24>$累计.高炉2.煤粉总耗$</TD>
+<TD align=right width=67  height=24>$累计.高炉2.煤粉单耗$</TD>
+<TD align=right width=55  height=24>$累计.高炉2.焦丁总耗$</TD>
+<TD align=right width=45  height=24>$累计.高炉2.焦丁单耗$</TD>
+<TD align=right width=45  height=24>$累计.高炉2.综合焦炭总耗$</TD>
+<TD align=right width=45  height=24>$累计.高炉2.综合焦炭单耗$</TD>
+<TD align=right width=49  height=24>$累计.高炉2.综合折算焦比$</TD>
+<TD align=right width=45  height=24>$累计.高炉2.工艺称焦比$</TD>
+<TD align=right width=49  height=24>$累计.高炉2.冶炼强度$</TD>
+<TD align=right width=45  height=24>$累计.高炉2.焦炭负荷$</TD>
+<TD align=right width=45  height=24>$累计.高炉2.干毛焦$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.炼钢铁Si$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.炼钢铁Mn$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.炼钢铁P$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.炼钢铁S$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.铸造铁Si$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.铸造铁Mn$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.铸造铁P$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.铸造铁S$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.炉渣碱度$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.休风情况$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.慢风$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.坐料次数$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.悬料次数$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.崩料次数$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.风口损坏数大$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.风口损坏数中$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.风口损坏数小$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.渣口损坏数大$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.渣口损坏数中$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.渣口损坏数小$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.本厂铸造$</TD>
+<TD align=right width=66  height=24>$累计.高炉2.送炼钢铁$</TD>
+</TR>
+
+<TR>
+<TD bgColor=#d7d7ff height=24>3高炉</TD>
+<TD bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right width=80  height=24>$本日.高炉3.煤粉总耗$</TD>
+<TD align=right width=67  height=24>$本日.高炉3.煤粉单耗$</TD>
+<TD align=right width=55  height=24>$本日.高炉3.焦丁总耗$</TD>
+<TD align=right width=45  height=24>$本日.高炉3.焦丁单耗$</TD>
+<TD align=right width=45  height=24>$本日.高炉3.综合焦炭总耗$</TD>
+<TD align=right width=45  height=24>$本日.高炉3.综合焦炭单耗$</TD>
+<TD align=right width=49  height=24>$本日.高炉3.综合折算焦比$</TD>
+<TD align=right width=45  height=24>$本日.高炉3.工艺称焦比$</TD>
+<TD align=right width=49  height=24>$本日.高炉3.冶炼强度$</TD>
+<TD align=right width=45  height=24>$本日.高炉3.焦炭负荷$</TD>
+<TD align=right width=45  height=24>$本日.高炉3.干毛焦$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.炼钢铁Si$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.炼钢铁Mn$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.炼钢铁P$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.炼钢铁S$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.铸造铁Si$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.铸造铁Mn$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.铸造铁P$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.铸造铁S$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.炉渣碱度$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.休风情况$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.慢风$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.坐料次数$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.悬料次数$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.崩料次数$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.风口损坏数大$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.风口损坏数中$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.风口损坏数小$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.渣口损坏数大$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.渣口损坏数中$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.渣口损坏数小$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.本厂铸造$</TD>
+<TD align=right width=66  height=24>$本日.高炉3.送炼钢铁$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>3高炉</TD>
+<TD bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right width=80  height=24>$累计.高炉3.煤粉总耗$</TD>
+<TD align=right width=67  height=24>$累计.高炉3.煤粉单耗$</TD>
+<TD align=right width=55  height=24>$累计.高炉3.焦丁总耗$</TD>
+<TD align=right width=45  height=24>$累计.高炉3.焦丁单耗$</TD>
+<TD align=right width=45  height=24>$累计.高炉3.综合焦炭总耗$</TD>
+<TD align=right width=45  height=24>$累计.高炉3.综合焦炭单耗$</TD>
+<TD align=right width=49  height=24>$累计.高炉3.综合折算焦比$</TD>
+<TD align=right width=45  height=24>$累计.高炉3.工艺称焦比$</TD>
+<TD align=right width=49  height=24>$累计.高炉3.冶炼强度$</TD>
+<TD align=right width=45  height=24>$累计.高炉3.焦炭负荷$</TD>
+<TD align=right width=45  height=24>$累计.高炉3.干毛焦$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.炼钢铁Si$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.炼钢铁Mn$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.炼钢铁P$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.炼钢铁S$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.铸造铁Si$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.铸造铁Mn$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.铸造铁P$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.铸造铁S$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.炉渣碱度$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.休风情况$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.慢风$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.坐料次数$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.悬料次数$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.崩料次数$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.风口损坏数大$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.风口损坏数中$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.风口损坏数小$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.渣口损坏数大$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.渣口损坏数中$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.渣口损坏数小$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.本厂铸造$</TD>
+<TD align=right width=66  height=24>$累计.高炉3.送炼钢铁$</TD>
+</TR>
+
+<TR>
+<TD bgColor=#d7d7ff height=24>4高炉</TD>
+<TD bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right width=80  height=24>$本日.高炉4.煤粉总耗$</TD>
+<TD align=right width=67  height=24>$本日.高炉4.煤粉单耗$</TD>
+<TD align=right width=55  height=24>$本日.高炉4.焦丁总耗$</TD>
+<TD align=right width=45  height=24>$本日.高炉4.焦丁单耗$</TD>
+<TD align=right width=45  height=24>$本日.高炉4.综合焦炭总耗$</TD>
+<TD align=right width=45  height=24>$本日.高炉4.综合焦炭单耗$</TD>
+<TD align=right width=49  height=24>$本日.高炉4.综合折算焦比$</TD>
+<TD align=right width=45  height=24>$本日.高炉4.工艺称焦比$</TD>
+<TD align=right width=49  height=24>$本日.高炉4.冶炼强度$</TD>
+<TD align=right width=45  height=24>$本日.高炉4.焦炭负荷$</TD>
+<TD align=right width=45  height=24>$本日.高炉4.干毛焦$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.炼钢铁Si$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.炼钢铁Mn$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.炼钢铁P$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.炼钢铁S$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.铸造铁Si$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.铸造铁Mn$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.铸造铁P$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.铸造铁S$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.炉渣碱度$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.休风情况$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.慢风$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.坐料次数$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.悬料次数$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.崩料次数$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.风口损坏数大$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.风口损坏数中$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.风口损坏数小$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.渣口损坏数大$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.渣口损坏数中$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.渣口损坏数小$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.本厂铸造$</TD>
+<TD align=right width=66  height=24>$本日.高炉4.送炼钢铁$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>4高炉</TD>
+<TD bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right width=80  height=24>$累计.高炉4.煤粉总耗$</TD>
+<TD align=right width=67  height=24>$累计.高炉4.煤粉单耗$</TD>
+<TD align=right width=55  height=24>$累计.高炉4.焦丁总耗$</TD>
+<TD align=right width=45  height=24>$累计.高炉4.焦丁单耗$</TD>
+<TD align=right width=45  height=24>$累计.高炉4.综合焦炭总耗$</TD>
+<TD align=right width=45  height=24>$累计.高炉4.综合焦炭单耗$</TD>
+<TD align=right width=49  height=24>$累计.高炉4.综合折算焦比$</TD>
+<TD align=right width=45  height=24>$累计.高炉4.工艺称焦比$</TD>
+<TD align=right width=49  height=24>$累计.高炉4.冶炼强度$</TD>
+<TD align=right width=45  height=24>$累计.高炉4.焦炭负荷$</TD>
+<TD align=right width=45  height=24>$累计.高炉4.干毛焦$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.炼钢铁Si$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.炼钢铁Mn$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.炼钢铁P$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.炼钢铁S$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.铸造铁Si$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.铸造铁Mn$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.铸造铁P$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.铸造铁S$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.炉渣碱度$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.休风情况$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.慢风$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.坐料次数$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.悬料次数$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.崩料次数$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.风口损坏数大$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.风口损坏数中$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.风口损坏数小$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.渣口损坏数大$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.渣口损坏数中$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.渣口损坏数小$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.本厂铸造$</TD>
+<TD align=right width=66  height=24>$累计.高炉4.送炼钢铁$</TD>
+</TR>
+
+<TR>
+<TD bgColor=#d7d7ff height=24>5高炉</TD>
+<TD bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right width=80  height=24>$本日.高炉5.煤粉总耗$</TD>
+<TD align=right width=67  height=24>$本日.高炉5.煤粉单耗$</TD>
+<TD align=right width=55  height=24>$本日.高炉5.焦丁总耗$</TD>
+<TD align=right width=45  height=24>$本日.高炉5.焦丁单耗$</TD>
+<TD align=right width=45  height=24>$本日.高炉5.综合焦炭总耗$</TD>
+<TD align=right width=45  height=24>$本日.高炉5.综合焦炭单耗$</TD>
+<TD align=right width=49  height=24>$本日.高炉5.综合折算焦比$</TD>
+<TD align=right width=45  height=24>$本日.高炉5.工艺称焦比$</TD>
+<TD align=right width=49  height=24>$本日.高炉5.冶炼强度$</TD>
+<TD align=right width=45  height=24>$本日.高炉5.焦炭负荷$</TD>
+<TD align=right width=45  height=24>$本日.高炉5.干毛焦$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.炼钢铁Si$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.炼钢铁Mn$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.炼钢铁P$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.炼钢铁S$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.铸造铁Si$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.铸造铁Mn$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.铸造铁P$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.铸造铁S$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.炉渣碱度$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.休风情况$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.慢风$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.坐料次数$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.悬料次数$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.崩料次数$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.风口损坏数大$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.风口损坏数中$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.风口损坏数小$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.渣口损坏数大$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.渣口损坏数中$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.渣口损坏数小$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.本厂铸造$</TD>
+<TD align=right width=66  height=24>$本日.高炉5.送炼钢铁$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>5高炉</TD>
+<TD bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right width=80  height=24>$累计.高炉5.煤粉总耗$</TD>
+<TD align=right width=67  height=24>$累计.高炉5.煤粉单耗$</TD>
+<TD align=right width=55  height=24>$累计.高炉5.焦丁总耗$</TD>
+<TD align=right width=45  height=24>$累计.高炉5.焦丁单耗$</TD>
+<TD align=right width=45  height=24>$累计.高炉5.综合焦炭总耗$</TD>
+<TD align=right width=45  height=24>$累计.高炉5.综合焦炭单耗$</TD>
+<TD align=right width=49  height=24>$累计.高炉5.综合折算焦比$</TD>
+<TD align=right width=45  height=24>$累计.高炉5.工艺称焦比$</TD>
+<TD align=right width=49  height=24>$累计.高炉5.冶炼强度$</TD>
+<TD align=right width=45  height=24>$累计.高炉5.焦炭负荷$</TD>
+<TD align=right width=45  height=24>$累计.高炉5.干毛焦$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.炼钢铁Si$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.炼钢铁Mn$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.炼钢铁P$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.炼钢铁S$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.铸造铁Si$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.铸造铁Mn$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.铸造铁P$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.铸造铁S$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.炉渣碱度$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.休风情况$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.慢风$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.坐料次数$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.悬料次数$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.崩料次数$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.风口损坏数大$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.风口损坏数中$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.风口损坏数小$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.渣口损坏数大$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.渣口损坏数中$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.渣口损坏数小$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.本厂铸造$</TD>
+<TD align=right width=66  height=24>$累计.高炉5.送炼钢铁$</TD>
+</TR>
+
+<TR>
+<TD bgColor=#d7d7ff height=24>6高炉</TD>
+<TD bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right width=80  height=24>$本日.高炉6.煤粉总耗$</TD>
+<TD align=right width=67  height=24>$本日.高炉6.煤粉单耗$</TD>
+<TD align=right width=55  height=24>$本日.高炉6.焦丁总耗$</TD>
+<TD align=right width=45  height=24>$本日.高炉6.焦丁单耗$</TD>
+<TD align=right width=45  height=24>$本日.高炉6.综合焦炭总耗$</TD>
+<TD align=right width=45  height=24>$本日.高炉6.综合焦炭单耗$</TD>
+<TD align=right width=49  height=24>$本日.高炉6.综合折算焦比$</TD>
+<TD align=right width=45  height=24>$本日.高炉6.工艺称焦比$</TD>
+<TD align=right width=49  height=24>$本日.高炉6.冶炼强度$</TD>
+<TD align=right width=45  height=24>$本日.高炉6.焦炭负荷$</TD>
+<TD align=right width=45  height=24>$本日.高炉6.干毛焦$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.炼钢铁Si$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.炼钢铁Mn$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.炼钢铁P$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.炼钢铁S$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.铸造铁Si$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.铸造铁Mn$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.铸造铁P$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.铸造铁S$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.炉渣碱度$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.休风情况$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.慢风$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.坐料次数$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.悬料次数$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.崩料次数$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.风口损坏数大$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.风口损坏数中$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.风口损坏数小$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.渣口损坏数大$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.渣口损坏数中$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.渣口损坏数小$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.本厂铸造$</TD>
+<TD align=right width=66  height=24>$本日.高炉6.送炼钢铁$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>6高炉</TD>
+<TD bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right width=80  height=24>$累计.高炉6.煤粉总耗$</TD>
+<TD align=right width=67  height=24>$累计.高炉6.煤粉单耗$</TD>
+<TD align=right width=55  height=24>$累计.高炉6.焦丁总耗$</TD>
+<TD align=right width=45  height=24>$累计.高炉6.焦丁单耗$</TD>
+<TD align=right width=45  height=24>$累计.高炉6.综合焦炭总耗$</TD>
+<TD align=right width=45  height=24>$累计.高炉6.综合焦炭单耗$</TD>
+<TD align=right width=49  height=24>$累计.高炉6.综合折算焦比$</TD>
+<TD align=right width=45  height=24>$累计.高炉6.工艺称焦比$</TD>
+<TD align=right width=49  height=24>$累计.高炉6.冶炼强度$</TD>
+<TD align=right width=45  height=24>$累计.高炉6.焦炭负荷$</TD>
+<TD align=right width=45  height=24>$累计.高炉6.干毛焦$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.炼钢铁Si$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.炼钢铁Mn$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.炼钢铁P$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.炼钢铁S$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.铸造铁Si$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.铸造铁Mn$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.铸造铁P$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.铸造铁S$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.炉渣碱度$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.休风情况$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.慢风$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.坐料次数$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.悬料次数$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.崩料次数$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.风口损坏数大$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.风口损坏数中$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.风口损坏数小$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.渣口损坏数大$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.渣口损坏数中$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.渣口损坏数小$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.本厂铸造$</TD>
+<TD align=right width=66  height=24>$累计.高炉6.送炼钢铁$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>全&nbsp;厂</TD>
+<TD bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right width=80  height=24>$本日.煤粉总耗$</TD>
+<TD align=right width=67  height=24>$本日.煤粉单耗$</TD>
+<TD align=right width=55  height=24>$本日.焦丁总耗$</TD>
+<TD align=right width=45  height=24>$本日.焦丁单耗$</TD>
+<TD align=right width=45  height=24>$本日.综合焦炭总耗$</TD>
+<TD align=right width=45  height=24>$本日.综合焦炭单耗$</TD>
+<TD align=right width=49  height=24>$本日.综合折算焦比$</TD>
+<TD align=right width=45  height=24>$本日.工艺称焦比$</TD>
+<TD align=right width=49  height=24>$本日.冶炼强度$</TD>
+<TD align=right width=45  height=24>$本日.焦炭负荷$</TD>
+<TD align=right width=45  height=24>$本日.干毛焦$</TD>
+<TD align=right width=66  height=24>$本日.炼钢铁Si$</TD>
+<TD align=right width=66  height=24>$本日.炼钢铁Mn$</TD>
+<TD align=right width=66  height=24>$本日.炼钢铁P$</TD>
+<TD align=right width=66  height=24>$本日.炼钢铁S$</TD>
+<TD align=right width=66  height=24>$本日.铸造铁Si$</TD>
+<TD align=right width=66  height=24>$本日.铸造铁Mn$</TD>
+<TD align=right width=66  height=24>$本日.铸造铁P$</TD>
+<TD align=right width=66  height=24>$本日.铸造铁S$</TD>
+<TD align=right width=66  height=24>$本日.炉渣碱度$</TD>
+<TD align=right width=66  height=24>$本日.休风情况$</TD>
+<TD align=right width=66  height=24>$本日.慢风$</TD>
+<TD align=right width=66  height=24>$本日.坐料次数$</TD>
+<TD align=right width=66  height=24>$本日.悬料次数$</TD>
+<TD align=right width=66  height=24>$本日.崩料次数$</TD>
+<TD align=right width=66  height=24>$本日.风口损坏数大$</TD>
+<TD align=right width=66  height=24>$本日.风口损坏数中$</TD>
+<TD align=right width=66  height=24>$本日.风口损坏数小$</TD>
+<TD align=right width=66  height=24>$本日.渣口损坏数大$</TD>
+<TD align=right width=66  height=24>$本日.渣口损坏数中$</TD>
+<TD align=right width=66  height=24>$本日.渣口损坏数小$</TD>
+<TD align=right width=66  height=24>$本日.本厂铸造$</TD>
+<TD align=right width=66  height=24>$本日.送炼钢铁$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>全&nbsp;厂</TD>
+<TD bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right width=80  height=24>$累计.煤粉总耗$</TD>
+<TD align=right width=67  height=24>$累计.煤粉单耗$</TD>
+<TD align=right width=55  height=24>$累计.焦丁总耗$</TD>
+<TD align=right width=45  height=24>$累计.焦丁单耗$</TD>
+<TD align=right width=45  height=24>$累计.综合焦炭总耗$</TD>
+<TD align=right width=45  height=24>$累计.综合焦炭单耗$</TD>
+<TD align=right width=49  height=24>$累计.综合折算焦比$</TD>
+<TD align=right width=45  height=24>$累计.工艺称焦比$</TD>
+<TD align=right width=49  height=24>$累计.冶炼强度$</TD>
+<TD align=right width=45  height=24>$累计.焦炭负荷$</TD>
+<TD align=right width=45  height=24>$累计.干毛焦$</TD>
+<TD align=right width=66  height=24>$累计.炼钢铁Si$</TD>
+<TD align=right width=66  height=24>$累计.炼钢铁Mn$</TD>
+<TD align=right width=66  height=24>$累计.炼钢铁P$</TD>
+<TD align=right width=66  height=24>$累计.炼钢铁S$</TD>
+<TD align=right width=66  height=24>$累计.铸造铁Si$</TD>
+<TD align=right width=66  height=24>$累计.铸造铁Mn$</TD>
+<TD align=right width=66  height=24>$累计.铸造铁P$</TD>
+<TD align=right width=66  height=24>$累计.铸造铁S$</TD>
+<TD align=right width=66  height=24>$累计.炉渣碱度$</TD>
+<TD align=right width=66  height=24>$累计.休风情况$</TD>
+<TD align=right width=66  height=24>$累计.慢风$</TD>
+<TD align=right width=66  height=24>$累计.坐料次数$</TD>
+<TD align=right width=66  height=24>$累计.悬料次数$</TD>
+<TD align=right width=66  height=24>$累计.崩料次数$</TD>
+<TD align=right width=66  height=24>$累计.风口损坏数大$</TD>
+<TD align=right width=66  height=24>$累计.风口损坏数中$</TD>
+<TD align=right width=66  height=24>$累计.风口损坏数小$</TD>
+<TD align=right width=66  height=24>$累计.渣口损坏数大$</TD>
+<TD align=right width=66  height=24>$累计.渣口损坏数中$</TD>
+<TD align=right width=66  height=24>$累计.渣口损坏数小$</TD>
+<TD align=right width=66  height=24>$累计.本厂铸造$</TD>
+<TD align=right width=66  height=24>$累计.送炼钢铁$</TD>
+</TR>
+</TBODY></TABLE>

@@ -1,0 +1,28 @@
+   (RQ  原料消耗.日期%TYPE,
+           GAOLU  原料消耗.高炉%TYPE,
+          JISHAO  原料消耗.机烧矿%TYPE,
+          SHUQIU  原料消耗.竖球%TYPE,
+           BENXI  原料消耗.本溪矿%TYPE,
+          GONGYI  原料消耗.工艺称%TYPE,
+        JIAODING  原料消耗.焦丁%TYPE,
+          MEIFEN  原料消耗.煤粉%TYPE,
+          FUYANG  原料消耗.富氧量%TYPE,
+          ZICHAN  原料消耗.自产湿焦%TYPE,
+           LUODI  原料消耗.落地湿焦%TYPE,
+         SHULIAO  原料消耗.熟料%TYPE,
+       SHULIAOMC  原料消耗.熟料名称%TYPE,
+       SHENGLIAO  原料消耗.生料%TYPE,
+     SHENGLIAOMC  原料消耗.生料名称%TYPE)
+IS
+BEGIN
+UPDATE 原料消耗
+SET   机烧矿=JISHAO,竖球=SHUQIU,本溪矿=BENXI,工艺称=GONGYI,焦丁=JIAODING,煤粉=MEIFEN,
+      富氧量=FUYANG,自产湿焦=ZICHAN,落地湿焦=LUODI,熟料=SHULIAO,熟料名称=SHULIAOMC,生料=SHENGLIAO,生料名称=SHENGLIAOMC
+      WHERE (日期=RQ AND 高炉=GAOLU);
+IF SQL%NOTFOUND THEN
+INSERT INTO 原料消耗(日期, 高炉, 机烧矿, 竖球, 本溪矿, 工艺称, 焦丁,煤粉,
+       富氧量, 自产湿焦, 落地湿焦, 熟料,熟料名称, 生料,生料名称)
+VALUES (RQ, GAOLU, JISHAO, SHUQIU, BENXI, GONGYI, JIAODING,MEIFEN,
+       FUYANG, ZICHAN, LUODI, SHULIAO,SHULIAOMC, SHENGLIAO,SHENGLIAOMC);
+END IF;
+END;

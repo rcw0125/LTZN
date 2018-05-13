@@ -1,0 +1,3 @@
+alter table CALF_CALTAG add IDX NUMBER(10);
+alter table XIAOHAO add jiaodingshuifen NUMBER(20,4);
+alter table XIAOHAO add jiaofenshuifen NUMBER(20,4);

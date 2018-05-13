@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIISURBVDhPpZP7S1NxGMbPPxKaXVUkMEq8IpKUCoY/hGgI
+        ymqkDYYXcCjDZOANURSjCNGFQUTsl4GXVMxKk62YU4fXQpaIlygHQxBRH8/zwvyaIAYe+HLgnPN8nue9
+        HA3nvDTq63oW/jm13XOwvPTB3DYFY5MH+bXfcN8ygfTSMSSXfESicQDxBqdYHwH29g9w2tnZ3UcguIvN
+        rR3417exuBJE5N1n/wfwLgXEOc38Bc6xNRHb+/y4nm49G0Bnit2zf9H6bkliE/jKuYxrd6oVgDWfjB+K
+        TWeKMyrGEVfowITvD9re/9ABVQrAhh0HHK+ZselMMaN/mvwtDb+aVqkA7HYIwIj3ysfluPTorJnP6Ezx
+        oHsD1s5ZXEktUwCOioB5f1CEPR9+wTG6iuiserTo8dkwng7HT/R+XUPF8xlcTjErAOdMcW6NW8STiwG8
+        7vej8oUPN/PsEv3t8Ao0TZP3T1u8uJRkUgAuSYHtO97oLxmXd5t9Ho8aPTK+GzntqNfrLm2fFoihwYOI
+        xGIF4KjoGBLzY1OrF9k6OOFxnwDC4wxIMX1G0pMhgVyMNyoA13PAtS7OrJk1PrC69LUdQWxuF6IybHrX
+        LRI7JrtZdoDAo1XmbjMyD+tjSXxGcXRmnYg5ttD9QuxDhN0uUgDOmbvNTpPOJaGAo2K36cyaGZvOFIfd
+        KlSA8/zRh9ABIDUG+1JpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="c1FlexGrid3.ColumnInfo" xml:space="preserve">
+    <value>48,0,0,80,0,115,Columns:0{Width:61;Name:"GAOLU";Caption:"高炉";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	1{Width:64;Name:"LUCI";Caption:"炉次";Style:"DataType:System.String;TextAlign:LeftCenter;";}	2{Width:68;Name:"ZDSJ";Caption:"正点时间";Style:"Format:""g"";DataType:System.DateTime;TextAlign:LeftCenter;";}	3{Width:71;Name:"DGSJ";Caption:"对罐时间";Style:"Format:""g"";DataType:System.DateTime;TextAlign:LeftCenter;";}	4{Width:68;Name:"KKSJ";Caption:"开口时间";Style:"Format:""g"";DataType:System.DateTime;TextAlign:LeftCenter;";}	5{Width:69;Name:"DKSJ";Caption:"堵口时间";Style:"Format:""g"";DataType:System.DateTime;TextAlign:LeftCenter;";}	6{Width:66;Name:"TZSJ";Caption:"通知时间";Style:"Format:""g"";DataType:System.DateTime;TextAlign:LeftCenter;";}	7{Width:74;Name:"WDSJ";Caption:"晚点时间";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	8{Width:87;Name:"QUCHU";Caption:"去处";Style:"DataType:System.String;TextAlign:LeftCenter;";}	9{Width:110;Name:"GFELIANG";Caption:"估计铁量";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	10{Width:107;Name:"LFELIANG";Caption:"理论铁量";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	11{Width:97;Name:"FELIANG";Caption:"铁量";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	12{Width:80;Name:"LIAOPI";Caption:"料匹数";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	13{Width:122;Name:"GGUANSHU";Caption:"估计罐数";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	14{Width:110;Name:"FEWENDU";Caption:"出铁温度";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	15{Width:60;Name:"FEC";Caption:"铁C";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	16{Width:63;Name:"FESI";Caption:"铁Si";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	17{Width:74;Name:"FEMN";Caption:"铁Mn";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	18{Width:59;Name:"FEP";Caption:"铁P";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	19{Width:59;Name:"FES";Caption:"铁S";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	20{Width:63;Name:"FETI";Caption:"铁Ti";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	21{Width:76;Name:"GFESI";Caption:"估计铁Si";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	22{Width:72;Name:"GFES";Caption:"估计铁S";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	23{Width:96;Name:"SHENDU";Caption:"深度";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	24{Width:87;Name:"JIAODU";Caption:"角度";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	25{Width:116;Name:"DANILIANG";Caption:"打泥量";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	26{Width:106;Name:"ZHAYANG";Caption:"渣样";Style:"DataType:System.String;TextAlign:LeftCenter;";}	27{Width:114;Name:"SHUIWEN1";Caption:"水温1";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	28{Width:114;Name:"SHUIWEN2";Caption:"水温2";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	29{Width:97;Name:"ZHASIO2";Caption:"渣SIO2";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	30{Width:96;Name:"ZHACAO";Caption:"渣CAO";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	31{Width:99;Name:"ZHAMGO";Caption:"渣MGO";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	32{Width:111;Name:"ZHAAL2O3";Caption:"渣AL2O3";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	33{Width:71;Name:"ZHAS";Caption:"渣S";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	34{Width:96;Name:"ZHATIO2";Caption:"渣TIO2";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	35{Width:81;Name:"ZHAR2";Caption:"渣R2";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	36{Width:77;Name:"BANCI";Caption:"班次";Style:"DataType:System.String;TextAlign:LeftCenter;";}	37{Width:98;Name:"BANLUCI";Caption:"班炉次";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	38{Width:85;Name:"FENLEI";Caption:"分类";Style:"DataType:System.String;TextAlign:LeftCenter;";}	39{Width:97;Name:"JIAOYAN";Caption:"校验";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	40{Width:48;Name:"BZ";Caption:"备注";Style:"DataType:System.String;TextAlign:LeftCenter;";}	41{Width:83;Name:"PNQK1";Caption:"炮泥情况1";Style:"DataType:System.String;TextAlign:LeftCenter;";}	42{Width:83;Name:"PNQK2";Caption:"炮泥情况2";Style:"DataType:System.String;TextAlign:LeftCenter;";}	43{Width:81;Name:"ZHAR3";Caption:"渣R3";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	44{Width:81;Name:"ZHAR4";Caption:"渣R4";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	45{Width:132;Name:"ZHAMGOALO";Caption:"渣MGOALO";Style:"DataType:System.Decimal;TextAlign:RightCenter;";}	46{Width:61;Name:"CTC";Caption:"CTC";Visible:False;Style:"DataType:System.String;TextAlign:LeftCenter;";}	47{Width:70;Name:"LZQK";Caption:"LZQK";Visible:False;Style:"Format:""d"";DataType:System.DateTime;TextAlign:LeftCenter;";}	</value>
+  </data>
+  <metadata name="dDLUCIBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>262, 17</value>
+  </metadata>
+  <metadata name="chuTieDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>130, 17</value>
+  </metadata>
+  <data name="c1FlexGrid3.StyleInfo" xml:space="preserve">
+    <value>Normal{Font:宋体, 12pt;}	Alternate{BackColor:244, 244, 234;}	Fixed{Font:Arial, 12pt;BackColor:230, 235, 242;ForeColor:WindowText;Margins:2, 2, 2, 2;Border:Raised,1,Black,Both;}	Highlight{BackColor:241, 192, 192;ForeColor:WindowText;}	Focus{BackColor:228, 241, 226;}	Editor{}	Search{BackColor:228, 241, 226;ForeColor:HighlightText;}	Frozen{BackColor:Beige;}	NewRow{}	EmptyArea{BackColor:AppWorkspace;Border:Flat,1,ControlDarkDark,Both;}	SelectedColumnHeader{}	SelectedRowHeader{}	GrandTotal{BackColor:Black;ForeColor:White;}	Subtotal0{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal1{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal2{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal3{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal4{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal5{BackColor:ControlDarkDark;ForeColor:White;}	CustomStyle1{BackColor:255, 255, 192;}	</value>
+  </data>
+  <metadata name="dDLUCITableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>431, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>40</value>
+  </metadata>
+</root>

@@ -1,0 +1,200 @@
+<H1 align=center>厂调指标查询</H1>
+<HR width="80%">
+
+<TABLE height=151 cellPadding=1 align=center bgColor=#cccccc border=0>
+<TBODY>
+<TR>
+<TD align=middle width=40 bgColor=#c6ffc6 height=28>单位</TD>
+<TD align=middle width=40 bgColor=#c6ffc6 height=28>项目</TD>
+<TD align=middle width=66 bgColor=#c6ffc6 height=28>全铁产量</TD>
+<TD align=middle width=64 bgColor=#c6ffc6 height=28>Si≤0.7</TD>
+<TD align=middle width=64 bgColor=#c6ffc6 height=28>送炼钢铁</TD>
+<TD align=middle width=56 bgColor=#c6ffc6 height=28>铸造铁</TD>
+<TD align=middle width=56 bgColor=#c6ffc6 height=28>机烧</TD>
+<TD align=middle width=56 bgColor=#c6ffc6 height=28>球团</TD>
+<TD align=middle width=56 bgColor=#c6ffc6 height=28>本溪</TD>
+<TD align=middle width=56 bgColor=#c6ffc6 height=28>生料</TD>
+<TD align=middle width=56 bgColor=#c6ffc6 height=28>焦比</TD>
+<TD align=middle width=56 bgColor=#c6ffc6 height=28>煤比</TD></TR>
+<TR>
+<TD align=middle bgColor=#d7d7ff height=24>1#</TD>
+<TD align=middle bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.Si小于0点7$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.送炼钢铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.铸造铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.机烧$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.球团$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.本溪$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.生料$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.煤比$</TD></TR>
+<TR>
+<TD align=middle bgColor=#d7d7ff height=24>1#</TD>
+<TD align=middle bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.全铁产量累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.Si小于0点7累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.送炼钢铁累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.铸造铁累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.机烧累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.球团累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.本溪累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.生料累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.焦比累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.煤比累计$</TD></TR>
+<TR>
+<TD align=middle bgColor=#d7d7ff height=24>2#</TD>
+<TD align=middle bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.Si小于0点7$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.送炼钢铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.铸造铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.机烧$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.球团$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.本溪$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.生料$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.煤比$</TD></TR>
+<TR>
+<TD align=middle bgColor=#d7d7ff height=24>2#</TD>
+<TD align=middle bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.全铁产量累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.Si小于0点7累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.送炼钢铁累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.铸造铁累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.机烧累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.球团累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.本溪累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.生料累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.焦比累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.煤比累计$</TD></TR>
+<TR>
+<TD align=middle bgColor=#d7d7ff height=24>3#</TD>
+<TD align=middle bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.Si小于0点7$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.送炼钢铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.铸造铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.机烧$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.球团$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.本溪$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.生料$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.煤比$</TD></TR>
+<TR>
+<TD align=middle bgColor=#d7d7ff height=24>3#</TD>
+<TD align=middle bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.全铁产量累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.Si小于0点7累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.送炼钢铁累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.铸造铁累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.机烧累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.球团累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.本溪累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.生料累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.焦比累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.煤比累计$</TD></TR>
+<TR>
+<TD align=middle bgColor=#d7d7ff height=24>4#</TD>
+<TD align=middle bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.Si小于0点7$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.送炼钢铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.铸造铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.机烧$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.球团$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.本溪$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.生料$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.煤比$</TD></TR>
+<TR>
+<TD align=middle bgColor=#d7d7ff height=24>4#</TD>
+<TD align=middle bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.全铁产量累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.Si小于0点7累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.送炼钢铁累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.铸造铁累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.机烧累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.球团累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.本溪累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.生料累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.焦比累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.煤比累计$</TD></TR>
+<TR>
+<TD align=middle bgColor=#d7d7ff height=24>5#</TD>
+<TD align=middle bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.Si小于0点7$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.送炼钢铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.铸造铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.机烧$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.球团$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.本溪$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.生料$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.煤比$</TD></TR>
+<TR>
+<TD align=middle bgColor=#d7d7ff height=24>5#</TD>
+<TD align=middle bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.全铁产量累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.Si小于0点7累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.送炼钢铁累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.铸造铁累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.机烧累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.球团累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.本溪累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.生料累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.焦比累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.煤比累计$</TD></TR>
+<TR>
+<TD align=middle bgColor=#d7d7ff height=24>6#</TD>
+<TD align=middle bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.Si小于0点7$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.送炼钢铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.铸造铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.机烧$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.球团$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.本溪$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.生料$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.煤比$</TD></TR>
+<TR>
+<TD align=middle bgColor=#d7d7ff height=24>6#</TD>
+<TD align=middle bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.全铁产量累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.Si小于0点7累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.送炼钢铁累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.铸造铁累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.机烧累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.球团累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.本溪累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.生料累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.焦比累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.煤比累计$</TD></TR>
+<TR>
+<TD align=middle bgColor=#d7d7ff height=24>全厂</TD>
+<TD align=middle bgColor=#d7d7ff height=24>本日</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$Si小于0点7$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$送炼钢铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$铸造铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$机烧$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$球团$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$本溪$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$生料$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$煤比$</TD></TR>
+<TR>
+<TD align=middle bgColor=#d7d7ff height=24>全厂</TD>
+<TD align=middle bgColor=#d7d7ff height=24>累计</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$全铁产量累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$Si小于0点7累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$送炼钢铁累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$铸造铁累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$机烧累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$球团累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$本溪累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$生料累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$焦比累计$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$煤比累计$</TD></TR></TBODY></TABLE>

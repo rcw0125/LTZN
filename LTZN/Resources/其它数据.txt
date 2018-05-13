@@ -1,0 +1,409 @@
+<H1 align=center>综合厂调指标查询</H1>
+<HR width="80%">
+
+<TABLE height=147 cellPadding=1 align=center bgColor=#cccccc border=0>
+<TBODY>
+<TR>
+<TD align=right width=56 bgColor=#c6ffc6 height=24>单位</TD>
+<TD align=right width=56 bgColor=#c6ffc6 height=24>夜班</TD>
+<TD align=right width=56 bgColor=#c6ffc6 height=24>白班</TD>
+<TD align=right width=56 bgColor=#c6ffc6 height=24>中班</TD>
+<TD align=right width=76 bgColor=#c6ffc6 height=24>全铁产量</TD>
+<TD align=right width=82 bgColor=#c6ffc6 height=24>累计产量</TD>
+<TD align=right width=76 bgColor=#c6ffc6 height=24>平均产量</TD>
+<TD align=right width=61 bgColor=#c6ffc6 height=24>L04</TD>
+<TD align=right width=61 bgColor=#c6ffc6 height=24>L08</TD>
+<TD align=right width=38 bgColor=#c6ffc6 height=24>L10</TD>
+<TD align=right width=38 bgColor=#c6ffc6 height=24>Z14</TD>
+<TD align=right width=38 bgColor=#c6ffc6 height=24>Z18</TD>
+<TD align=right width=38 bgColor=#c6ffc6 height=24>Z22</TD>
+<TD align=right width=38 bgColor=#c6ffc6 height=24>Z26</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>一高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.夜班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.白班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.中班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.累计产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.平均产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.L04$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.L08$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.L10$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.Z14$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.Z18$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.Z22$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.Z26$</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>二高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.夜班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.白班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.中班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.累计产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.平均产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.L04$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.L08$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.L10$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.Z14$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.Z18$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.Z22$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.Z26$</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>三高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.夜班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.白班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.中班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.累计产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.平均产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.L04$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.L08$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.L10$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.Z14$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.Z18$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.Z22$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.Z26$</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>四高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.夜班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.白班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.中班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.累计产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.平均产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.L04$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.L08$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.L10$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.Z14$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.Z18$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.Z22$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.Z26$</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>五高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.夜班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.白班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.中班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.累计产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.平均产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.L04$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.L08$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.L10$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.Z14$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.Z18$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.Z22$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.Z26$</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>六高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.夜班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.白班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.中班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.累计产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.平均产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.L04$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.L08$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.L10$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.Z14$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.Z18$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.Z22$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.Z26$</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>全&nbsp;厂</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$夜班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$白班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$中班$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$全铁产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$累计产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$平均产量$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$L04$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$L08$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$L10$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$Z14$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$Z18$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$Z22$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$Z26$</TD></TR></TBODY></TABLE>
+<TABLE height=147 cellPadding=1 align=center bgColor=#cccccc border=0>
+<TBODY>
+<TR>
+<TD align=right width=56 bgColor=#c6ffc6 height=24>单位</TD>
+<TD align=right width=80 bgColor=#c6ffc6 height=24>七号称湿焦</TD>
+<TD align=right width=80 bgColor=#c6ffc6 height=24>工艺称湿焦</TD>
+<TD align=right width=67 bgColor=#c6ffc6 height=24>矿耗总和</TD>
+<TD align=right width=55 bgColor=#c6ffc6 height=24>机烧</TD>
+<TD align=right width=45 bgColor=#c6ffc6 height=24>球团矿</TD>
+<TD align=right width=45 bgColor=#c6ffc6 height=24>国内球团矿</TD>
+<TD align=right width=45 bgColor=#c6ffc6 height=24>进口球团矿</TD>
+<TD align=right width=45 bgColor=#c6ffc6 height=24>PB块</TD>
+<TD align=right width=45 bgColor=#c6ffc6 height=24>纽曼块</TD>
+<TD align=right width=45 bgColor=#c6ffc6 height=24>其它块矿</TD>
+<TD align=right width=45 bgColor=#c6ffc6 height=24>高钛球团矿</TD>
+<TD align=right width=45 bgColor=#c6ffc6 height=24>高品位钛球</TD>
+<TD align=right width=45 bgColor=#c6ffc6 height=24>溶剂总耗</TD>
+<TD align=right width=45 bgColor=#c6ffc6 height=24>硅石</TD>
+<TD align=right width=45 bgColor=#c6ffc6 height=24>萤石</TD>
+<TD align=right width=45 bgColor=#c6ffc6 height=24>蛇纹石</TD>
+<TD align=right width=45 bgColor=#c6ffc6 height=24>其它熔剂</TD>
+<TD align=right width=49 bgColor=#c6ffc6 height=24>煤粉</TD>
+<TD align=right width=45 bgColor=#c6ffc6 height=24>碎铁</TD>
+<TD align=right width=45 bgColor=#c6ffc6 height=24>焦丁</TD>
+<TD align=right width=66 bgColor=#c6ffc6 height=24>焦炭总耗</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>一高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.七号称湿焦$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.工艺称湿焦$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.矿耗总和$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.机烧$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.国内球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.进口球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.PB块$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.纽曼块$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.其它块矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.高钛球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.高品位钛球$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.溶剂总耗$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.硅石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.萤石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.蛇纹石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.其它熔剂$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.煤粉$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.碎铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.焦丁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.焦炭总耗$</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>二高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.七号称湿焦$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.工艺称湿焦$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.矿耗总和$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.机烧$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.国内球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.进口球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.PB块$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.纽曼块$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.其它块矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.高钛球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.高品位钛球$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.溶剂总耗$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.硅石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.萤石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.蛇纹石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.其它熔剂$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.煤粉$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.碎铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.焦丁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.焦炭总耗$</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>三高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.七号称湿焦$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.工艺称湿焦$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.矿耗总和$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.机烧$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.国内球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.进口球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.PB块$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.纽曼块$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.其它块矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.高钛球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.高品位钛球$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.溶剂总耗$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.硅石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.萤石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.蛇纹石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.其它熔剂$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.煤粉$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.碎铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.焦丁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.焦炭总耗$</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>四高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.七号称湿焦$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.工艺称湿焦$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.矿耗总和$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.机烧$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.国内球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.进口球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.PB块$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.纽曼块$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.其它块矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.高钛球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.高品位钛球$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.溶剂总耗$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.硅石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.萤石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.蛇纹石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.其它熔剂$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.煤粉$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.碎铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.焦丁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.焦炭总耗$</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>五高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.七号称湿焦$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.工艺称湿焦$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.矿耗总和$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.机烧$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.国内球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.进口球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.PB块$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.纽曼块$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.其它块矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.高钛球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.高品位钛球$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.溶剂总耗$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.硅石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.萤石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.蛇纹石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.其它熔剂$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.煤粉$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.碎铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.焦丁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.焦炭总耗$</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>六高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.七号称湿焦$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.工艺称湿焦$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.矿耗总和$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.机烧$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.国内球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.进口球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.PB块$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.纽曼块$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.其它块矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.高钛球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.高品位钛球$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.溶剂总耗$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.硅石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.萤石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.蛇纹石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.其它熔剂$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.煤粉$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.碎铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.焦丁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.焦炭总耗$</TD></TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>全&nbsp;厂</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$七号称湿焦$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$工艺称湿焦$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$矿耗总和$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$机烧$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$国内球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$进口球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$PB块$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$纽曼块$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$其它块矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高钛球团矿$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高品位钛球$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$溶剂总耗$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$硅石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$萤石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$蛇纹石$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$其它熔剂$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$煤粉$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$碎铁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$焦丁$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$焦炭总耗$</TD></TR></TBODY></TABLE>
+<TABLE height=147 cellPadding=1 align=center bgColor=#cccccc border=0>
+<TBODY>
+<TR>
+<TD align=right width=56 bgColor=#c6ffc6 height=24>单位</TD>
+<TD align=right width=80 bgColor=#c6ffc6 height=24>七号称焦比</TD>
+<TD align=right width=78 bgColor=#c6ffc6 height=24>综合焦比</TD>
+<TD align=right width=80 bgColor=#c6ffc6 height=24>工艺称焦比</TD>
+<TD align=right width=70 bgColor=#c6ffc6 height=24>实物系数</TD>
+<TD align=right width=70 bgColor=#c6ffc6 height=24>冶炼强度</TD>
+<TD align=right width=70 bgColor=#c6ffc6 height=24>焦炭负荷</TD>
+<TD align=right width=70 bgColor=#c6ffc6 height=24>碎铁比</TD>
+<TD align=right width=70 bgColor=#c6ffc6 height=24>煤比</TD>
+<TD align=right width=70 bgColor=#c6ffc6 height=24>回收率</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>一高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.七号称焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.综合焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.工艺称焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.实物系数$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.冶炼强度$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.焦炭负荷$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.碎铁比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.煤比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉1.回收率$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>二高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.七号称焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.综合焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.工艺称焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.实物系数$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.冶炼强度$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.焦炭负荷$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.碎铁比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.煤比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉2.回收率$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>三高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.七号称焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.综合焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.工艺称焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.实物系数$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.冶炼强度$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.焦炭负荷$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.碎铁比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.煤比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉3.回收率$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>四高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.七号称焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.综合焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.工艺称焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.实物系数$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.冶炼强度$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.焦炭负荷$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.碎铁比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.煤比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉4.回收率$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>五高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.七号称焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.综合焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.工艺称焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.实物系数$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.冶炼强度$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.焦炭负荷$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.碎铁比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.煤比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉5.回收率$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>六高炉</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.七号称焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.综合焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.工艺称焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.实物系数$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.冶炼强度$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.焦炭负荷$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.碎铁比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.煤比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$高炉6.回收率$</TD>
+</TR>
+<TR>
+<TD bgColor=#d7d7ff height=24>全&nbsp;厂</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$七号称焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$综合焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$工艺称焦比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$实物系数$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$冶炼强度$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$焦炭负荷$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$碎铁比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$煤比$</TD>
+<TD align=right bgColor=#ffffd7 height=24>&nbsp;$回收率$</TD>
+</TR></TBODY></TABLE>

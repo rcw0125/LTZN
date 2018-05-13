@@ -1,0 +1,95 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LTZN.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="慢风分类" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;坐料回慢风&lt;/string&gt;
+  &lt;string&gt;炉况难行&lt;/string&gt;
+  &lt;string&gt;控料速&lt;/string&gt;
+  &lt;string&gt;提Si&lt;/string&gt;
+  &lt;string&gt;铁罐晚点&lt;/string&gt;
+  &lt;string&gt;休风复慢风&lt;/string&gt;
+  &lt;string&gt;出不净&lt;/string&gt;
+  &lt;string&gt;设备慢风&lt;/string&gt;
+  &lt;string&gt;备休&lt;/string&gt;
+  &lt;string&gt;待料&lt;/string&gt;
+  &lt;string&gt;铁口浅&lt;/string&gt;
+  &lt;string&gt;淹铁道&lt;/string&gt;
+  &lt;string&gt;其它&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="休风分类" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;抢修&lt;/string&gt;
+  &lt;string&gt;设备计划检修&lt;/string&gt;
+  &lt;string&gt;非计划检修&lt;/string&gt;
+  &lt;string&gt;风渣口&lt;/string&gt;
+  &lt;string&gt;其它易损件&lt;/string&gt;
+  &lt;string&gt;工艺操作故障&lt;/string&gt;
+  &lt;string&gt;生产事故&lt;/string&gt;
+  &lt;string&gt;机械故障&lt;/string&gt;
+  &lt;string&gt;电气故障&lt;/string&gt;
+  &lt;string&gt;其它设备故障&lt;/string&gt;
+  &lt;string&gt;其它内因&lt;/string&gt;
+  &lt;string&gt;动力原因&lt;/string&gt;
+  &lt;string&gt;运输原因&lt;/string&gt;
+  &lt;string&gt;待料&lt;/string&gt;
+  &lt;string&gt;其它外因&lt;/string&gt;
+  &lt;string&gt;生产计划休风&lt;/string&gt;
+  &lt;string&gt;生产非计划&lt;/string&gt;
+  &lt;string&gt;大修&lt;/string&gt;
+  &lt;string&gt;中修&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="熟料分类" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;其它熟料&lt;/string&gt;
+  &lt;string&gt;黄石球&lt;/string&gt;
+  &lt;string&gt;秘鲁球&lt;/string&gt;
+  &lt;string&gt;巴西球&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="生料分类" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;其它生料&lt;/string&gt;
+  &lt;string&gt;武安矿&lt;/string&gt;
+  &lt;string&gt;宣化矿&lt;/string&gt;
+  &lt;string&gt;黄石矿&lt;/string&gt;
+  &lt;string&gt;巴西矿&lt;/string&gt;
+  &lt;string&gt;澳矿&lt;/string&gt;
+  &lt;string&gt;冷球&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="取消" Type="System.String" Scope="User">
+      <Value Profile="(Default)">取消</Value>
+    </Setting>
+    <Setting Name="密码" Type="System.String" Scope="User">
+      <Value Profile="(Default)">密码</Value>
+    </Setting>
+    <Setting Name="用户名" Type="System.String" Scope="User">
+      <Value Profile="(Default)">用户名</Value>
+    </Setting>
+    <Setting Name="服务器" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.38.28</Value>
+    </Setting>
+    <Setting Name="负责人" Type="System.String" Scope="User">
+      <Value Profile="(Default)">马保良</Value>
+    </Setting>
+    <Setting Name="制表人" Type="System.String" Scope="User">
+      <Value Profile="(Default)">刘红芬</Value>
+    </Setting>
+    <Setting Name="ltznConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=LIANTIE;Persist Security Info=True;User ID=LF;Password=LF;Unicode=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OracleClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=LIANTIE;Persist Security Info=True;User ID=LF;Password=LF;Unicode=True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

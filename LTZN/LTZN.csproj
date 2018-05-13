@@ -1,0 +1,1613 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B346E84F-DA94-4D08-B258-19C652EFB9E2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LTZN</RootNamespace>
+    <AssemblyName>LTZN</AssemblyName>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>4DAAFCABD9CF5C6FEDFB40D5BA1B36729A745172</ManifestCertificateThumbprint>
+    <ManifestKeyFile>zdhs.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <ManifestTimestampUrl>
+    </ManifestTimestampUrl>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <ApplicationIcon>ltzn.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>\\192.168.39.200\ltznweb\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://192.168.38.200/</InstallUrl>
+    <UpdateUrl>http://192.168.38.200/</UpdateUrl>
+    <SupportUrl>http://192.168.38.200/</SupportUrl>
+    <ProductName>炼铁智能系统</ProductName>
+    <PublisherName>炼铁厂</PublisherName>
+    <WebPage>Default.htm</WebPage>
+    <ApplicationRevision>292</ApplicationRevision>
+    <ApplicationVersion>1.0.2.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.Win.C1Chart.2, Version=2.0.20181.296, Culture=neutral, PublicKeyToken=a22e16972c085838, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\C1.Win.C1Chart.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Command.2, Version=2.0.20181.296, Culture=neutral, PublicKeyToken=e808566f358766d8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\C1.Win.C1Command.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.2, Version=2.0.20181.296, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\C1.Win.C1FlexGrid.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Input.2, Version=2.0.20181.296, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\C1.Win.C1Input.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.Common\12.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.WinForms\12.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.WinForms.DLL</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=2.0.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dotnet2\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINNT\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINNT\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalFramework2\CalUtility.cs" />
+    <Compile Include="CalFramework2\IOper.cs" />
+    <Compile Include="CalFramework2\MemTag.cs" />
+    <Compile Include="CalFramework2\MemTagModel.cs" />
+    <Compile Include="CalFramework2\OperFactory.cs" />
+    <Compile Include="CalFramework2\Opers.cs" />
+    <Compile Include="CalFramework\CalOrg.cs" />
+    <Compile Include="CalFramework\CalTag.cs" />
+    <Compile Include="CalFramework\CalUtility.cs" />
+    <Compile Include="CalFramework\IOper.cs" />
+    <Compile Include="CalFramework\OperFactory.cs" />
+    <Compile Include="CalFramework\Opers.cs" />
+    <Compile Include="CalFramework\CalModel.cs" />
+    <Compile Include="ckfa.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ckfa.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ctjh.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ctjh.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Common\ToolStripRadioCheckPicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Constant.cs" />
+    <Compile Include="CalModelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalModelForm.Designer.cs">
+      <DependentUpon>CalModelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\ChuTie.cs" />
+    <Compile Include="Data\ChuTieJiHua.cs" />
+    <Compile Include="Data\DataObject.cs" />
+    <Compile Include="Data\MonthEnergy.cs" />
+    <Compile Include="Data\ObservableObject.cs" />
+    <Compile Include="Data\RiGaoLuXiaoHao.cs" />
+    <Compile Include="Data\RiLianTieXiaoHao.cs" />
+    <Compile Include="Data\SysParameter.cs" />
+    <Compile Include="DB\DDMF.cs" />
+    <Compile Include="DB\ITagSource.cs" />
+    <Compile Include="DB\MyDb.cs" />
+    <Compile Include="DB\QueryTemplate.cs" />
+    <Compile Include="DB\Rbbd.cs" />
+    <Compile Include="DB\RBCAOZUO.cs" />
+    <Compile Include="DB\RBFK.cs" />
+    <Compile Include="DB\RBGZ.cs" />
+    <Compile Include="DB\RBLIAOXIAN.cs" />
+    <Compile Include="DB\RBLQ.cs" />
+    <Compile Include="DB\RBWENDU.cs" />
+    <Compile Include="DB\RBXF.cs" />
+    <Compile Include="DB\RBXIAOHAO.cs" />
+    <Compile Include="DB\RBZLBD.cs" />
+    <Compile Include="DB\TagQuery.cs" />
+    <Compile Include="DB\出铁情况.cs" />
+    <Compile Include="lxbz.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lxbz.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="技术日报\技术日报数据集.cs">
+      <DependentUpon>技术日报数据集.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="技术日报\技术日报数据集.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>技术日报数据集.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\newS趋势.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\newS趋势.Designer.cs">
+      <DependentUpon>newS趋势.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\new碱度趋势.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\new碱度趋势.Designer.cs">
+      <DependentUpon>new碱度趋势.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\物理热趋势.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\物理热趋势.Designer.cs">
+      <DependentUpon>物理热趋势.cs</DependentUpon>
+    </Compile>
+    <Compile Include="料线探齿设置.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="料线探齿设置.Designer.cs">
+      <DependentUpon>料线探齿设置.cs</DependentUpon>
+    </Compile>
+    <Compile Include="生产日报\生产数据.Designer.cs">
+      <DependentUpon>生产数据.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="质量日报\DDTTY.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DDTTY.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="质量日报\ddjt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ddjt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="质量日报\套筒窑内容.cs" />
+    <Compile Include="质量日报\套筒窑内容项.cs" />
+    <Compile Include="质量日报\套筒窑内容项数据.cs" />
+    <Compile Include="质量日报\焦炭指标内容.cs" />
+    <Compile Include="质量日报\焦炭指标内容项.cs" />
+    <Compile Include="质量日报\焦炭指标内容项数据.cs" />
+    <Compile Include="质量日报\燃料成分.cs">
+      <DependentUpon>燃料成分.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="质量日报\燃料成分.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>燃料成分.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="质量日报\DDJS.cs">
+      <DependentUpon>DDJS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="质量日报\DDJS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DDJS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Ltzn_Para.cs" />
+    <Compile Include="MsgContentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MsgContentForm.Designer.cs">
+      <DependentUpon>MsgContentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MsgSendForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MsgSendForm.Designer.cs">
+      <DependentUpon>MsgSendForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MsgUnDealForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MsgUnDealForm.Designer.cs">
+      <DependentUpon>MsgUnDealForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LtznUserManager.cs" />
+    <Compile Include="NameDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NameDialog.Designer.cs">
+      <DependentUpon>NameDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParaForm.Designer.cs">
+      <DependentUpon>ParaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\DataSources\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalModelForm.resx">
+      <DependentUpon>CalModelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MsgContentForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MsgContentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MsgSendForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MsgSendForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MsgUnDealForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MsgUnDealForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NameDialog.resx">
+      <DependentUpon>NameDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParaForm.resx">
+      <DependentUpon>ParaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\AdvanceQueryForm.resx">
+      <DependentUpon>AdvanceQueryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManager\ManGroupForm.resx">
+      <DependentUpon>ManGroupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XiaohaoGaolu\XiaohaoGaolu.resx">
+      <DependentUpon>XiaohaoGaolu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="全厂日消耗\全厂日消耗窗体.resx">
+      <DependentUpon>全厂日消耗窗体.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="出铁方案.resx">
+      <DependentUpon>出铁方案.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="出铁计划.resx">
+      <DependentUpon>出铁计划.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="原料消耗\原料消耗.resx">
+      <DependentUpon>原料消耗.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="密码更改窗体.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>密码更改窗体.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="技术年报\年报浏览窗体.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>年报浏览窗体.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="技术日报\RiReportForm.resx">
+      <DependentUpon>RiReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="技术日报\技术日报.rdlc" />
+    <EmbeddedResource Include="技术日报\报表显示窗体.resx">
+      <DependentUpon>报表显示窗体.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="技术日报\数据修改窗体.resx">
+      <DependentUpon>数据修改窗体.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="技术月报\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="技术月报\MonthReportForm.resx">
+      <DependentUpon>MonthReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="技术月报\技术月报.rdlc" />
+    <EmbeddedResource Include="技术月报\技术月报2.rdlc" />
+    <EmbeddedResource Include="技术月报\技术月报窗体.resx">
+      <DependentUpon>技术月报窗体.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="技术月报\月报调整.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>月报调整.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\Cr趋势.resx">
+      <DependentUpon>Cr趋势.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\MaterialAnalysisForm.resx">
+      <DependentUpon>MaterialAnalysisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\Mn趋势.resx">
+      <DependentUpon>Mn趋势.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\Ni趋势.resx">
+      <DependentUpon>Ni趋势.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\P趋势.resx">
+      <DependentUpon>P趋势.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\S趋势.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>S趋势.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\newS趋势.resx">
+      <DependentUpon>newS趋势.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\new碱度趋势.resx">
+      <DependentUpon>new碱度趋势.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\物理热趋势.resx">
+      <DependentUpon>物理热趋势.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\原料分类.resx">
+      <DependentUpon>原料分类.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\烧结矿P趋势.resx">
+      <DependentUpon>烧结矿P趋势.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\烧结矿Si趋势.resx">
+      <DependentUpon>烧结矿Si趋势.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\烧结矿S趋势.resx">
+      <DependentUpon>烧结矿S趋势.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\产量.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>产量.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\剩余热.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>剩余热.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\出铁数据.resx">
+      <DependentUpon>出铁数据.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\TiO2趋势.resx">
+      <DependentUpon>TiO2趋势.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\参数设定.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>参数设定.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\炉温.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>炉温.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\烧结矿Ti趋势.resx">
+      <DependentUpon>烧结矿Ti趋势.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\碱度趋势.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>碱度趋势.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\趋势参数.resx">
+      <DependentUpon>趋势参数.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="料线探齿设置.resx">
+      <DependentUpon>料线探齿设置.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="更新内容.resx">
+      <DependentUpon>更新内容.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="查询\其它数据参数.resx">
+      <DependentUpon>其它数据参数.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="查询\基准风温.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>基准风温.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="查询\数据查询窗口.resx">
+      <DependentUpon>数据查询窗口.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="查询\查询条件.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>查询条件.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="查询\铁水质量查询条件.resx">
+      <DependentUpon>铁水质量查询条件.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="炼铁智能主窗体.resx">
+      <DependentUpon>炼铁智能主窗体.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="数据分析\SPCLegend.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SPCLegend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="生产日报\生产日报.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>生产日报.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="用户管理.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>用户管理.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="登陆窗体.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>登陆窗体.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="调度\调度窗体.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>调度窗体.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="质量日报\质量日报.rdlc" />
+    <EmbeddedResource Include="质量日报\质量日报Form.resx">
+      <DependentUpon>质量日报Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="高炉燃料比综合分析\澳矿成分.resx">
+      <DependentUpon>澳矿成分.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="高炉燃料比综合分析\原料品位分析.resx">
+      <DependentUpon>原料品位分析.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="高炉燃料比综合分析\入炉原料结构.resx">
+      <DependentUpon>入炉原料结构.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="高炉燃料比综合分析\回收率分析.resx">
+      <DependentUpon>回收率分析.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="高炉燃料比综合分析\数据汇总.resx">
+      <DependentUpon>数据汇总.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="高炉燃料比综合分析\热风炉顶压力分析.resx">
+      <DependentUpon>热风炉顶压力分析.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="高炉燃料比综合分析\燃料消耗分析.resx">
+      <DependentUpon>燃料消耗分析.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="高炉燃料比综合分析\风温富氧率分析.resx">
+      <DependentUpon>风温富氧率分析.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="高炉燃料比综合分析\燃料质量分析.resx">
+      <DependentUpon>燃料质量分析.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="XiaohaoGaolu\DataSetXh1.xsc">
+      <DependentUpon>DataSetXh1.xsd</DependentUpon>
+    </None>
+    <None Include="XiaohaoGaolu\DataSetXh1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetXh1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="XiaohaoGaolu\DataSetXh1.xss">
+      <DependentUpon>DataSetXh1.xsd</DependentUpon>
+    </None>
+    <None Include="XiaohaoGaolu\高炉消耗数据集.xsc">
+      <DependentUpon>高炉消耗数据集.xsd</DependentUpon>
+    </None>
+    <None Include="XiaohaoGaolu\高炉消耗数据集.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>高炉消耗数据集.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="XiaohaoGaolu\高炉消耗数据集.xss">
+      <DependentUpon>高炉消耗数据集.xsd</DependentUpon>
+    </None>
+    <None Include="全厂日消耗\全厂日消耗数据集.xsc">
+      <DependentUpon>全厂日消耗数据集.xsd</DependentUpon>
+    </None>
+    <None Include="全厂日消耗\全厂日消耗数据集.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>全厂日消耗数据集.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="全厂日消耗\全厂日消耗数据集.xss">
+      <DependentUpon>全厂日消耗数据集.xsd</DependentUpon>
+    </None>
+    <None Include="原料消耗\原料消耗数据集.xsc">
+      <DependentUpon>原料消耗数据集.xsd</DependentUpon>
+    </None>
+    <None Include="原料消耗\原料消耗数据集.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>原料消耗数据集.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="原料消耗\原料消耗数据集.xss">
+      <DependentUpon>原料消耗数据集.xsd</DependentUpon>
+    </None>
+    <None Include="原料消耗\原料消耗表.sql" />
+    <None Include="技术月报\技术月报表.xsc">
+      <DependentUpon>技术月报表.xsd</DependentUpon>
+    </None>
+    <None Include="技术月报\技术月报表.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>技术月报表.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="技术月报\技术月报表.xss">
+      <DependentUpon>技术月报表.xsd</DependentUpon>
+    </None>
+    <None Include="调度\调度数据集.xsc">
+      <DependentUpon>调度数据集.xsd</DependentUpon>
+    </None>
+    <None Include="调度\调度数据集.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>调度数据集.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="调度\调度数据集.xss">
+      <DependentUpon>调度数据集.xsd</DependentUpon>
+    </None>
+    <None Include="查询\量化铁考核.xsc">
+      <DependentUpon>量化铁考核.xsd</DependentUpon>
+    </None>
+    <None Include="查询\量化铁考核.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>量化铁考核.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="查询\量化铁考核.xss">
+      <DependentUpon>量化铁考核.xsd</DependentUpon>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Query\AdvanceQueryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\AdvanceQueryForm.Designer.cs">
+      <DependentUpon>AdvanceQueryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\ComposeCondition.cs" />
+    <Compile Include="Query\Condition.cs" />
+    <Compile Include="Query\ConditionManager.cs" />
+    <Compile Include="Query\DateTimeSealedCondition.cs" />
+    <Compile Include="Query\EntityField.cs" />
+    <Compile Include="Query\IntSealedCondition.cs" />
+    <Compile Include="Query\LogicOpType.cs" />
+    <Compile Include="Query\NumericSealedCondition.cs" />
+    <Compile Include="Query\OpItem.cs" />
+    <Compile Include="Query\OpState.cs" />
+    <Compile Include="Query\QueryEntity.cs" />
+    <Compile Include="Query\RelationOpType.cs" />
+    <Compile Include="Query\SealedCondition.cs" />
+    <Compile Include="Query\StringSealedCondition.cs" />
+    <Compile Include="Repository\CalModelRepository.cs" />
+    <Compile Include="Repository\ChuTieJiHuaRepository.cs" />
+    <Compile Include="Repository\ChuTieRepository.cs" />
+    <Compile Include="Repository\MonthEnergyRepository.cs" />
+    <Compile Include="Repository\MonthReportRepository.cs" />
+    <Compile Include="Repository\QueryModel.cs" />
+    <Compile Include="Repository\RepositoryBase.cs" />
+    <Compile Include="Repository\RiLianTieXiaoHaoRepository.cs" />
+    <Compile Include="Repository\RiReportRepository.cs" />
+    <Compile Include="Repository\ZhiliangRiReportRepository.cs" />
+    <Compile Include="UDPListener.cs" />
+    <Compile Include="UserManager\Authority.cs" />
+    <Compile Include="UserManager\Group.cs" />
+    <Compile Include="UserManager\ManGroupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManager\ManGroupForm.Designer.cs">
+      <DependentUpon>ManGroupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserManager\User.cs" />
+    <Compile Include="XiaohaoGaolu\DataSetXh1.cs">
+      <DependentUpon>DataSetXh1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="XiaohaoGaolu\DataSetXh1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetXh1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="XiaohaoGaolu\DBConvert.cs" />
+    <Compile Include="XiaohaoGaolu\Xiaohao.cs" />
+    <Compile Include="XiaohaoGaolu\XiaohaoData.cs" />
+    <Compile Include="XiaohaoGaolu\XiaohaoGaolu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XiaohaoGaolu\XiaohaoManager.cs" />
+    <Compile Include="XiaohaoGaolu\高炉消耗数据集.cs">
+      <DependentUpon>高炉消耗数据集.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="XiaohaoGaolu\高炉消耗数据集.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>高炉消耗数据集.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="全厂日消耗\全厂日消耗数据集.cs">
+      <DependentUpon>全厂日消耗数据集.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="全厂日消耗\全厂日消耗数据集.Designer.cs">
+      <DependentUpon>全厂日消耗数据集.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="全厂日消耗\全厂日消耗窗体.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="全厂日消耗\全厂日消耗窗体.Designer.cs">
+      <DependentUpon>全厂日消耗窗体.cs</DependentUpon>
+    </Compile>
+    <Compile Include="出铁方案.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="出铁方案.Designer.cs">
+      <DependentUpon>出铁方案.cs</DependentUpon>
+    </Compile>
+    <Compile Include="出铁计划.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="出铁计划.Designer.cs">
+      <DependentUpon>出铁计划.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原料消耗\原料消耗.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="原料消耗\原料消耗.Designer.cs">
+      <DependentUpon>原料消耗.cs</DependentUpon>
+    </Compile>
+    <Compile Include="原料消耗\原料消耗数据集.cs">
+      <DependentUpon>原料消耗数据集.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="原料消耗\原料消耗数据集.Designer.cs">
+      <DependentUpon>原料消耗数据集.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="密码更改窗体.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="密码更改窗体.Designer.cs">
+      <DependentUpon>密码更改窗体.cs</DependentUpon>
+    </Compile>
+    <Compile Include="技术年报\年报浏览窗体.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="技术年报\年报浏览窗体.Designer.cs">
+      <DependentUpon>年报浏览窗体.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Common\ToolStripDateTimePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="技术日报\RiBaoModel.cs" />
+    <Compile Include="技术日报\RiReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="技术日报\RiReportForm.Designer.cs">
+      <DependentUpon>RiReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="技术日报\原料消耗.cs" />
+    <Compile Include="技术日报\技术日报.cs" />
+    <Compile Include="技术日报\技术日报内容.cs" />
+    <Compile Include="技术日报\技术日报内容项.cs" />
+    <Compile Include="技术日报\技术日报内容项数据.cs" />
+    <Compile Include="技术日报\报表显示窗体.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="技术日报\报表显示窗体.Designer.cs">
+      <DependentUpon>报表显示窗体.cs</DependentUpon>
+    </Compile>
+    <Compile Include="技术日报\数据修改窗体.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="技术日报\数据修改窗体.Designer.cs">
+      <DependentUpon>数据修改窗体.cs</DependentUpon>
+    </Compile>
+    <Compile Include="技术日报\生铁.cs" />
+    <Compile Include="技术月报\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="技术月报\Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="技术月报\MonthReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="技术月报\MonthReportForm.Designer.cs">
+      <DependentUpon>MonthReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="技术月报\上月累计.cs" />
+    <Compile Include="技术月报\技术月报.cs" />
+    <Compile Include="技术月报\技术月报窗体.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="技术月报\技术月报窗体.Designer.cs">
+      <DependentUpon>技术月报窗体.cs</DependentUpon>
+    </Compile>
+    <Compile Include="技术月报\技术月报表.cs">
+      <DependentUpon>技术月报表.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="技术月报\技术月报表.Designer.cs">
+      <DependentUpon>技术月报表.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="技术月报\月报参数.cs" />
+    <Compile Include="技术月报\月报调整.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="技术月报\月报调整.Designer.cs">
+      <DependentUpon>月报调整.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\ChuTieDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ChuTieDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\Cr趋势.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\Cr趋势.designer.cs">
+      <DependentUpon>Cr趋势.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\LegendEnviroment.cs" />
+    <Compile Include="数据分析\MaterialAnalysisDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MaterialAnalysisDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\MaterialAnalysisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\MaterialAnalysisForm.Designer.cs">
+      <DependentUpon>MaterialAnalysisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\Mn趋势.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\Mn趋势.designer.cs">
+      <DependentUpon>Mn趋势.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\Ni趋势.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\Ni趋势.designer.cs">
+      <DependentUpon>Ni趋势.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\P趋势.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\P趋势.designer.cs">
+      <DependentUpon>P趋势.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\S趋势.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\S趋势.Designer.cs">
+      <DependentUpon>S趋势.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\原料分类.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\原料分类.Designer.cs">
+      <DependentUpon>原料分类.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\烧结矿P趋势.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\烧结矿P趋势.designer.cs">
+      <DependentUpon>烧结矿P趋势.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\烧结矿Si趋势.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\烧结矿Si趋势.designer.cs">
+      <DependentUpon>烧结矿Si趋势.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\烧结矿S趋势.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\烧结矿S趋势.designer.cs">
+      <DependentUpon>烧结矿S趋势.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\产量.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\产量.Designer.cs">
+      <DependentUpon>产量.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\剩余热.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\剩余热.Designer.cs">
+      <DependentUpon>剩余热.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\出铁数据.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\出铁数据.Designer.cs">
+      <DependentUpon>出铁数据.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\TiO2趋势.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\TiO2趋势.Designer.cs">
+      <DependentUpon>TiO2趋势.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\参数设定.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\参数设定.Designer.cs">
+      <DependentUpon>参数设定.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\炉温.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\炉温.Designer.cs">
+      <DependentUpon>炉温.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\烧结矿Ti趋势.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\烧结矿Ti趋势.designer.cs">
+      <DependentUpon>烧结矿Ti趋势.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\碱度趋势.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\碱度趋势.Designer.cs">
+      <DependentUpon>碱度趋势.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\趋势参数.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="数据分析\趋势参数.Designer.cs">
+      <DependentUpon>趋势参数.cs</DependentUpon>
+    </Compile>
+    <Compile Include="更新内容.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="更新内容.Designer.cs">
+      <DependentUpon>更新内容.cs</DependentUpon>
+    </Compile>
+    <Compile Include="查询\上报厂调.cs" />
+    <Compile Include="查询\优质优价炼钢铁.cs" />
+    <Compile Include="查询\优质铁水率.cs" />
+    <Compile Include="查询\其它数据.cs" />
+    <Compile Include="查询\其它数据参数.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="查询\其它数据参数.Designer.cs">
+      <DependentUpon>其它数据参数.cs</DependentUpon>
+    </Compile>
+    <Compile Include="查询\基准风温.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="查询\基准风温.Designer.cs">
+      <DependentUpon>基准风温.cs</DependentUpon>
+    </Compile>
+    <Compile Include="查询\大宗原料.cs" />
+    <Compile Include="查询\数据查询窗口.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="查询\数据查询窗口.Designer.cs">
+      <DependentUpon>数据查询窗口.cs</DependentUpon>
+    </Compile>
+    <Compile Include="查询\晚点时间.cs" />
+    <Compile Include="查询\本日生铁.cs" />
+    <Compile Include="查询\机烧值比较.cs" />
+    <Compile Include="查询\查询条件.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="查询\查询条件.Designer.cs">
+      <DependentUpon>查询条件.cs</DependentUpon>
+    </Compile>
+    <Compile Include="查询\生产指标.cs" />
+    <Compile Include="查询\铁口深度.cs" />
+    <Compile Include="查询\铁水质量查询.cs" />
+    <Compile Include="查询\铁水质量查询条件.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="查询\铁水质量查询条件.Designer.cs">
+      <DependentUpon>铁水质量查询条件.cs</DependentUpon>
+    </Compile>
+    <Compile Include="查询\风温考核.cs" />
+    <Compile Include="炼铁智能主窗体.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="炼铁智能主窗体.Designer.cs">
+      <DependentUpon>炼铁智能主窗体.cs</DependentUpon>
+    </Compile>
+    <Compile Include="数据分析\SPCLegend.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="数据分析\SPCLegend.Designer.cs">
+      <DependentUpon>SPCLegend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="生产日报\生产数据.cs">
+      <DependentUpon>生产数据.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="生产日报\生产日报.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="生产日报\生产日报.Designer.cs">
+      <DependentUpon>生产日报.cs</DependentUpon>
+    </Compile>
+    <Compile Include="用户管理.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="用户管理.Designer.cs">
+      <DependentUpon>用户管理.cs</DependentUpon>
+    </Compile>
+    <Compile Include="登陆窗体.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="登陆窗体.Designer.cs">
+      <DependentUpon>登陆窗体.cs</DependentUpon>
+    </Compile>
+    <Compile Include="调度\YLXiaoHao.cs" />
+    <Compile Include="调度\调度数据集.cs">
+      <DependentUpon>调度数据集.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="调度\调度数据集.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>调度数据集.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="调度\调度窗体.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="调度\调度窗体.Designer.cs">
+      <DependentUpon>调度窗体.cs</DependentUpon>
+    </Compile>
+    <Compile Include="查询\量化铁考核.cs">
+      <DependentUpon>量化铁考核.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="查询\量化铁考核.Designer.cs">
+      <DependentUpon>量化铁考核.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="质量日报\机烧粒度内容.cs" />
+    <Compile Include="质量日报\机烧粒度内容项.cs" />
+    <Compile Include="质量日报\机烧粒度内容项数据.cs" />
+    <Compile Include="质量日报\燃料指标内容.cs" />
+    <Compile Include="质量日报\燃料指标内容项.cs" />
+    <Compile Include="质量日报\燃料指标内容项数据.cs" />
+    <Compile Include="质量日报\质量日报.cs" />
+    <Compile Include="质量日报\质量日报Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="质量日报\质量日报Form.Designer.cs">
+      <DependentUpon>质量日报Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="质量日报\质量日报内容.cs" />
+    <Compile Include="质量日报\质量日报内容项.cs" />
+    <Compile Include="质量日报\质量日报内容项数据.cs" />
+    <Compile Include="质量日报\质量日报数据集.cs">
+      <DependentUpon>质量日报数据集.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="质量日报\质量日报数据集.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>质量日报数据集.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="高炉燃料比综合分析\colors.cs" />
+    <Compile Include="高炉燃料比综合分析\DataZong.cs" />
+    <Compile Include="高炉燃料比综合分析\澳矿成分.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="高炉燃料比综合分析\澳矿成分.Designer.cs">
+      <DependentUpon>澳矿成分.cs</DependentUpon>
+    </Compile>
+    <Compile Include="高炉燃料比综合分析\LegendEnviroment.cs" />
+    <Compile Include="高炉燃料比综合分析\原料品位分析.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="高炉燃料比综合分析\原料品位分析.designer.cs">
+      <DependentUpon>原料品位分析.cs</DependentUpon>
+    </Compile>
+    <Compile Include="高炉燃料比综合分析\入炉原料结构.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="高炉燃料比综合分析\入炉原料结构.designer.cs">
+      <DependentUpon>入炉原料结构.cs</DependentUpon>
+    </Compile>
+    <Compile Include="高炉燃料比综合分析\回收率分析.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="高炉燃料比综合分析\回收率分析.designer.cs">
+      <DependentUpon>回收率分析.cs</DependentUpon>
+    </Compile>
+    <Compile Include="高炉燃料比综合分析\数据汇总.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="高炉燃料比综合分析\数据汇总.designer.cs">
+      <DependentUpon>数据汇总.cs</DependentUpon>
+    </Compile>
+    <Compile Include="高炉燃料比综合分析\热风炉顶压力分析.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="高炉燃料比综合分析\热风炉顶压力分析.designer.cs">
+      <DependentUpon>热风炉顶压力分析.cs</DependentUpon>
+    </Compile>
+    <Compile Include="高炉燃料比综合分析\燃料消耗分析.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="高炉燃料比综合分析\燃料消耗分析.designer.cs">
+      <DependentUpon>燃料消耗分析.cs</DependentUpon>
+    </Compile>
+    <Compile Include="高炉燃料比综合分析\风温富氧率分析.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="高炉燃料比综合分析\风温富氧率分析.designer.cs">
+      <DependentUpon>风温富氧率分析.cs</DependentUpon>
+    </Compile>
+    <Compile Include="高炉燃料比综合分析\燃料质量分析.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="高炉燃料比综合分析\燃料质量分析.designer.cs">
+      <DependentUpon>燃料质量分析.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ckfa.xsc">
+      <DependentUpon>ckfa.xsd</DependentUpon>
+    </None>
+    <None Include="ckfa.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ckfa.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ckfa.xss">
+      <DependentUpon>ckfa.xsd</DependentUpon>
+    </None>
+    <None Include="ctjh.xsc">
+      <DependentUpon>ctjh.xsd</DependentUpon>
+    </None>
+    <None Include="ctjh.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ctjh.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ctjh.xss">
+      <DependentUpon>ctjh.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet3.xsc">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet3.xss">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="lxbz.xsc">
+      <DependentUpon>lxbz.xsd</DependentUpon>
+    </None>
+    <None Include="lxbz.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lxbz.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lxbz.xss">
+      <DependentUpon>lxbz.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\LTZN.Repository.JiShuYueBaoTable.datasource" />
+    <None Include="Properties\DataSources\LTZN.技术日报.技术日报内容项.datasource" />
+    <None Include="Properties\DataSources\LTZN.质量日报.套筒窑内容项.datasource" />
+    <None Include="技术日报\技术日报数据集.xsc">
+      <DependentUpon>技术日报数据集.xsd</DependentUpon>
+    </None>
+    <None Include="技术日报\技术日报数据集.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>技术日报数据集.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="技术日报\技术日报数据集.xss">
+      <DependentUpon>技术日报数据集.xsd</DependentUpon>
+    </None>
+    <None Include="质量日报\DDTTY.xsc">
+      <DependentUpon>DDTTY.xsd</DependentUpon>
+    </None>
+    <None Include="质量日报\DDTTY.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DDTTY.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="质量日报\DDTTY.xss">
+      <DependentUpon>DDTTY.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\LTZN.质量日报.焦炭指标内容项.datasource" />
+    <None Include="Resources\炼铁质量日报.xls" />
+    <None Include="质量日报\ddjt.xsc">
+      <DependentUpon>ddjt.xsd</DependentUpon>
+    </None>
+    <None Include="质量日报\ddjt.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ddjt.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="质量日报\ddjt.xss">
+      <DependentUpon>ddjt.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\LTZN.质量日报.燃料指标内容项.datasource" />
+    <None Include="质量日报\燃料成分.xsc">
+      <DependentUpon>燃料成分.xsd</DependentUpon>
+    </None>
+    <None Include="质量日报\燃料成分.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>燃料成分.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="质量日报\燃料成分.xss">
+      <DependentUpon>燃料成分.xsd</DependentUpon>
+    </None>
+    <None Include="质量日报\DDJS.xsc">
+      <DependentUpon>DDJS.xsd</DependentUpon>
+    </None>
+    <None Include="质量日报\DDJS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DDJS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="质量日报\DDJS.xss">
+      <DependentUpon>DDJS.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\LTZN.CalFramework.CalTag.datasource" />
+    <None Include="Properties\DataSources\LTZN.Data.ChuTie.datasource" />
+    <None Include="Properties\DataSources\LTZN.Data.MonthEnergy.datasource" />
+    <None Include="Properties\DataSources\LTZN.质量日报.机烧粒度内容项.datasource" />
+    <None Include="Properties\DataSources\LTZN.质量日报.质量日报内容项.datasource" />
+    <None Include="Query\ClassDiagram1.cd" />
+    <None Include="Resources\yuebao_template.xls" />
+    <None Include="Resources\炼铁技术日报.xls" />
+    <None Include="Resources\炼铁技术月报.xls" />
+    <None Include="Resources\生产.gif" />
+    <None Include="Resources\调度.gif" />
+    <None Include="Resources\本日生铁.txt" />
+    <None Include="Resources\上报厂调.txt" />
+    <None Include="Resources\其它数据.txt" />
+    <None Include="Resources\技术日报.txt" />
+    <None Include="Resources\技术日报1.txt" />
+    <None Include="Resources\技术日报11.txt" />
+    <Content Include="ltzn.ico" />
+    <None Include="Resources\topcon.gif" />
+    <None Include="Resources\down_10.gif" />
+    <None Include="Resources\duote_08.gif" />
+    <Content Include="炼铁技术日报.xls" />
+    <None Include="数据分析\ChuTieDataSet.xsc">
+      <DependentUpon>ChuTieDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="数据分析\ChuTieDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ChuTieDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="数据分析\ChuTieDataSet.xss">
+      <DependentUpon>ChuTieDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="数据分析\MaterialAnalysisDataSet.xsc">
+      <DependentUpon>MaterialAnalysisDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="数据分析\MaterialAnalysisDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MaterialAnalysisDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="数据分析\MaterialAnalysisDataSet.xss">
+      <DependentUpon>MaterialAnalysisDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="生产日报\生产数据.xsc">
+      <DependentUpon>生产数据.xsd</DependentUpon>
+    </None>
+    <None Include="生产日报\生产数据.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>生产数据.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="生产日报\生产数据.xss">
+      <DependentUpon>生产数据.xsd</DependentUpon>
+    </None>
+    <None Include="质量日报\质量日报数据集.xsc">
+      <DependentUpon>质量日报数据集.xsd</DependentUpon>
+    </None>
+    <None Include="质量日报\质量日报数据集.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>质量日报数据集.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="质量日报\质量日报数据集.xss">
+      <DependentUpon>质量日报数据集.xsd</DependentUpon>
+    </None>
+    <Content Include="Stylesheet1.css" />
+    <Content Include="XiaohaoGaolu\manfeng.sql" />
+    <Content Include="XiaohaoGaolu\XiaohaoSql.sql" />
+    <Content Include="XiaohaoGaolu\休风.sql" />
+    <Content Include="XiaohaoGaolu\慢风.sql" />
+    <Content Include="全厂日消耗\全厂日消耗.sql" />
+    <Content Include="全厂日消耗\日原料成分.sql" />
+    <Content Include="技术日报\技术日报数据库表.sql" />
+    <Content Include="技术月报\技术月报数据库表.sql" />
+    <Content Include="炼铁技术月报.xls" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="ADODB">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Office.Interop.Excel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Office.Interop.SmartTag">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Office.Tools.Common">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.Common">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.ProcessingObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.WinForms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Vbe.Interop">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.OfficeTools.Controls.ManagedWrapper">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Tools.Applications.Runtime">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="office">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="stdole">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="VSTOStorageWrapper.Interop">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="XiaohaoGaolu\manfeng.sql">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="XiaohaoGaolu\XiaohaoSql.sql">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="XiaohaoGaolu\休风.sql">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="XiaohaoGaolu\慢风.sql">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="全厂日消耗\全厂日消耗.sql">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="全厂日消耗\日原料成分.sql">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="技术日报\技术日报数据库表.sql">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="技术月报\技术月报数据库表.sql">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="publish\" />
+    <Folder Include="新建文件夹\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

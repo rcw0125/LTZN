@@ -1,0 +1,30 @@
+-- Create table
+create table CALF_CALMODEL
+(
+  EID       CHAR(36) not null,
+  MODELNAME VARCHAR2(200) default '' not null
+)
+tablespace USERS
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    minextents 1
+    maxextents unlimited
+  );
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table CALF_CALMODEL
+  add primary key (EID)
+  using index 
+  tablespace USERS
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    minextents 1
+    maxextents unlimited
+  );

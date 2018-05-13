@@ -1,0 +1,1 @@
+Alter Table 每月能耗 add column 高炉6人数 Number(10,0)
